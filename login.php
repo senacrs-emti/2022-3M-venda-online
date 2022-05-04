@@ -23,9 +23,9 @@
 			<div class="login">
 				<form>
 					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Login</button>
+					<input type="email" name="Email" placeholder="Email" required="">
+					<input type="password" name="Senha" placeholder="Senha" required="">
+					<button name="login" href="entrar.php">Login</button>
 				</form>
 			</div>
 	</div>
