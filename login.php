@@ -13,7 +13,7 @@
 			<div class="signup">
 				<form method="POST" action="cadastro.php">
 					<label for="chk" aria-hidden="true">Cadastrar</label>
-					<input type="text" name="NomeDeUsuario" placeholder="User name" required="">
+					<input type="text" name="NomeDeUsuario" placeholder="Nome de Usuário" required="">
 					<input type="Email" name="Email" placeholder="Email" required="">
 					<input type="password" name="Senha" placeholder="Password" required="">
 					<button href="cadastro.php">Cadastro</button>
