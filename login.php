@@ -11,12 +11,12 @@
 		<input type="checkbox" id="chk" aria-hidden="true">
 
 			<div class="signup">
-				<form>
+				<form method="POST" action="cadastro.php">
 					<label for="chk" aria-hidden="true">Cadastrar</label>
-					<input type="text" name="txt" placeholder="User name" required="">
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Cadastrar</button>
+					<input type="text" name="NomeDeUsuario" placeholder="User name" required="">
+					<input type="Email" name="Email" placeholder="Email" required="">
+					<input type="password" name="Senha" placeholder="Password" required="">
+					<button href="cadastro.php">Cadastro</button>
 				</form>
 			</div>
 
