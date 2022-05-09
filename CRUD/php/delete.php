@@ -15,7 +15,7 @@ if(isset($_GET['id'])){
 	        WHERE id=$id";
    $result = mysqli_query($conn, $sql);
    if ($result) {
-   	  header("Location: ../read.php?success=Deletado com Sucesso");
+   	  header("Location: ../read.php?success=Deletado com Sucesso!");
    }else {
       header("Location: ../read.php?error=Erro desconhecido&$user_data");
    }
