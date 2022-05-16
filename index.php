@@ -49,11 +49,16 @@
   </div>
 </nav>
 
-    <section>
+    <section class="section-1">
       <div class="img-container">
-      <div class="black-gradient"></div>
-      <img class="section-img" src="./imagens/arenagremio.jpg" alt="Imagem da arena do grêmio">
+        <img src="imagens\arenagremio.jpg" alt="Imagem da arena do Grêmio">
+        <div class="img-shadow">
+        </div>
       </div>
+      <div class="text-container">
+        <h4>Garanta seus ingressos para os jogos e shows na loja mais <span>original</span> e <span>profissional</span> do <span>Grêmio</span>!</h4>
+      </div>
+    
     </section>
 
 
