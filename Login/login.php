@@ -23,12 +23,14 @@
 			</div>
  
 			<div class="login"> <!-- Login de Usuário!-->
-				<form>
+
+			<form>
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="Email" placeholder="Email" required="">
 					<input type="password" name="Senha" placeholder="Senha" required="">
-					<button name="login" href="entrar.php">Login</button>
+					<button name="login" href="perfil.php">Login</button>
 				</form>
+	
 			</div>
 	</div>
 </body>
