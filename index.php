@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
-<body style="background-color:grey">
+<body style="background-color: CornflowerBlue	">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="index.php">Base Do Grêmio</a>
