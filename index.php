@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: CornflowerBlue	">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: Black;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="index.php">Base Do Grêmio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
