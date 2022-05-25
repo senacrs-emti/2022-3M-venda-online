@@ -11,7 +11,7 @@
 <body style="background-color:grey">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Base Do Grêmio</a>
+  <a class="navbar-brand" href="index.php">Base Do Grêmio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -70,4 +70,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+<footer>
+  <div class="logotipo">
+    <img src="imagens/logotipo.png">
+  </div>
+
+  <nav class="redes">
+
+<ul>
+  <li><a href="https://www.facebook.com" target="blank"> <img src="imagens/facebook.png"></a></li>
+  <li><a href="https://www.instagram.com" target="blank"><img src="imagens/instagram.png"></a></li>
+  <li><a href="https://www.twitter.com" target="blank"><img src="imagens/twitter.png"></a></li>
+</ul>
+</nav>
+
+
+
+
+
+
+</footer>
 </html>
