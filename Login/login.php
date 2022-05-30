@@ -18,7 +18,7 @@
 					<input type="text" name="NomeDeUsuario" placeholder="Nome de Usuário" required="">
 					<input type="Email" name="Email" placeholder="Email" required="">
 					<input type="password" name="Senha" placeholder="Senha" required="">
-					<button href="cadastro.php">Cadastro</button>
+					<button href="Perfil/index.php">Cadastro</button>
 				</form>
 			</div>
  
@@ -27,7 +27,7 @@
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="Email" placeholder="Email" required="">
 					<input type="password" name="Senha" placeholder="Senha" required="">
-					<button name="login" href="entrar.php">Login</button>
+					<button name="login" href="Perfil/index.php">Login</button>
 				</form>
 			</div>
 	</div>
