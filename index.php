@@ -65,7 +65,7 @@
 </body>
 <footer>
   <div class="logotipo">
-    <img src="imagens/arena.png">
+    <a href="https://arenapoa.com.br/"> <img src="imagens/arena.png"></a>
   </div>
   
 
