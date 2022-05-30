@@ -137,6 +137,7 @@ body {
    .navbar-brand {
     margin-right: 1.6rem !important;
     font-size: 2rem !important;
+    width: 150px;
    }
 
    section.section-1 {
@@ -301,6 +302,26 @@ p {
     font-size: 0.7em;
  }
  .logo img {
-    width: 50%;
+    width: 150px;
     vertical-align: middle;
  }
+
+ .navbar-brand img {
+     width: 100%;
+
+
+ }
+
+ .nav-link {
+     margin-right: 50px;
+ }
+
+ #conteudoNavbarSuportado {
+     margin-right: 45px;
+ }
+
+ #conteudoNavbarSuportado .nav-link {
+    margin-left: 50px;
+ }
+
+ 

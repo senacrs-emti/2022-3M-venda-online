@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: #354e7c">
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
-  <a class="navbar-brand" href="index.php">Base Do Grêmio</a>
+  <a class="navbar-brand" href="index.php"><img src="./imagens/basegremio.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,7 +40,6 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-      <button class="button" type="submit">🔍 Pesquisar</button>
       </form>
     <form class="form-inline my-2 my-lg-0" action="Login/login.php">
     <button class="button2" type="submit" href="login.php">👤 Entrar</button>
