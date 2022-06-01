@@ -18,4 +18,7 @@ $logarray = $array['Email'];
 $query = "INSERT INTO logindeusuario (NomeDeUsuario,Email,Senha) VALUES ('$NomeDeUsuario','$Email','$Senha')";
 $insert = mysqli_query($conn,$query);
 
+header('location: ../Login/Perfil/index.php');
+
 ?>
+

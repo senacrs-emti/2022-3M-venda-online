@@ -21,4 +21,7 @@ $db = mysqli_select_db('script');
         header("Location:index.php");
       }
   }
+
+  header('location: ../Login/Perfil/index.php');
+
 ?>
