@@ -31,7 +31,7 @@
 			</div>
  
 			<div class="login"> <!-- Login de Usuário!-->
-				<form>
+				<form method="GET" action="Perfil/index.php">
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="Email" placeholder="Email" required="">
 					<input type="password" name="Senha" placeholder="Senha" required="">

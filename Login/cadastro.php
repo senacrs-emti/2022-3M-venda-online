@@ -34,4 +34,7 @@ if (mysqli_num_rows($verifyUser) !=0) {
 
 
 
+header('location: ../Login/Perfil/index.php');
+
 ?>
+

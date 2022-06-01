@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Base do Grêmio</title>
+    
 </head>
 <body style="background-color: #354e7c">
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
@@ -63,26 +64,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-<footer>
-  <div class="logotipo">
-    <a href="https://arenapoa.com.br/" target="blank"> <img src="imagens/arena.png"></a>
-  </div>
-  
-
-  <nav class="redes">
-    <p>Acompanhe os canais da Arena:</p>
-    
-
-<ul>
-  <li><a href="https://www.facebook.com/todosnaarena" target="blank"> <img src="imagens/facebook.png"></a></li>
-  <li><a href="https://www.instagram.com/todosnaarena/?hl=pt-br" target="blank"><img src="imagens/instagram.png"></a></li>
-  <li><a href="https://twitter.com/todosnaarena" target="blank"><img src="imagens/twitter.png"></a></li>
-</ul>
-</nav>
-
-
-
-
-
-</footer>
 </html>
