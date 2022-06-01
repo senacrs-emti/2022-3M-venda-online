@@ -260,7 +260,6 @@ and (max-width: 769px){
    footer {
        width: 100%;
        clear: both;
-       margin-bottom: 4%;
    }
    .logotipo {
        width: 35%;
@@ -292,7 +291,12 @@ footer nav ul li a img {
 }
 
 footer {
-    background-color: #354e7c;
+
+    background-color: #354e7c!important;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
 }
 
 p {
@@ -332,5 +336,4 @@ p {
     width: 90px;
     margin-left: 50px;
 }
-
 
