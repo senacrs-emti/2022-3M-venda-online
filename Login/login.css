@@ -1,6 +1,15 @@
 
 /* Estilização do Corpo e Botões do Form de Login/Cadastro */
 
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 48
+  }
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -40,12 +49,11 @@ label{
 }
 input{
 	width: 60%;
-	height: 20px;
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
-	padding: 10px;
+	margin: 20px auto !important;
+	padding: 10px !important;
 	border: none;
 	outline: none;
 	border-radius: 5px;
@@ -94,4 +102,27 @@ login:hover {
 }
 #chk:checked ~ .signup label{
 	transform: scale(.6);
+}
+
+.popup-user {
+	z-index: 1000000;
+	position: absolute;
+	top: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 0 auto;
+	height: 50px;
+	width: 200px;
+	color: white;
+	background-color: rgb(148, 53, 53);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
 }
