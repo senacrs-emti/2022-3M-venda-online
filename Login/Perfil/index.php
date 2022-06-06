@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="profile-img">
-                        <img src="<?php echo $Email?>" alt="" />
+                        <img src="<?php echo $l?>" alt="" />
                         <div class="file btn btn-lg btn-primary">
                             Mudar Imagem
                             <input type="file" name="file" />
