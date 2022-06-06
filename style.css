@@ -336,4 +336,17 @@ p {
     width: 90px;
     margin-left: 50px;
 }
-
+h5{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
+h6{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
