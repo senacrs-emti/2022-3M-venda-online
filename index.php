@@ -73,7 +73,9 @@
       <div class="card">
         <img src="imagens/gremioxnovo.png" class="card-img-top" alt="...">
         <div class="card-body">
+          <a class="ingressocompra" href="compra.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
+        </a>
         </div>
       </div>
     </div>
