@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/gremio.png">
     <title>Base do Grêmio</title>
 </head>
 <body>
@@ -39,9 +40,6 @@
         <a class="nav-link" href="noticias.php">Notícias</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-      </form>
     <form class="form-inline my-2 my-lg-0" action="Login/login.php">
     <button class="button2" type="submit" href="login.php">👤 Entrar</button>
     </form>

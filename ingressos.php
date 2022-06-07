@@ -9,7 +9,7 @@ include 'topo.php';
 </head>
 
 <div class="card">
-  <div class="card-img"></div>
+  <a href="compra.php"><img src="imagens/gremioxnautico.png" class="card-img"></a>
   <div class="card-info">
     <p class="text-title">GRÊMIO X NOVORIZONTINO </p>
     <p class="text-body">Jogaço para assistir ao vivo</p>
@@ -28,7 +28,7 @@ include 'topo.php';
 </div></div>
 
 <div class="card2">
-  <div class="card-img2"></div>
+<a href="compra.php"><img src="imagens/gremioxsampaio.png" class="card-img2"></a>
   <div class="card-info2">
     <p class="text-title2">GRÊMIO X SAMPAIO </p>
     <p class="text-body2">Jogaço para assistir ao vivo</p>
@@ -47,7 +47,7 @@ include 'topo.php';
 </div></div>
 
 <div class="card3">
-  <div class="card-img3"></div>
+<a href="compra.php"><img src="imagens/gremioelondrina.png" class="card-img3"></a>
   <div class="card-info3">
     <p class="text-title3">GRÊMIO X LONDRINA </p>
     <p class="text-body3">Jogaço para assistir ao vivo</p>
