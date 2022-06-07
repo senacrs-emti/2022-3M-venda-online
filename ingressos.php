@@ -1,12 +1,12 @@
+
 <?php 
-include 'navbar.php';
+include 'topo.php';
 ?>
-<html lang="en">
+
 <head>
   <link rel="stylesheet" href="ingressos.css">
   <title>Ingressos</title>
 </head>
-<body style="background-color: #354e7c">
 
 <div class="card">
   <div class="card-img"></div>
@@ -49,7 +49,7 @@ include 'navbar.php';
 <div class="card3">
   <div class="card-img3"></div>
   <div class="card-info3">
-    <p class="text-title3">GRÊMIO X NOVORIZONTINO </p>
+    <p class="text-title3">GRÊMIO X LONDRINA </p>
     <p class="text-body3">Jogaço para assistir ao vivo</p>
   </div>
   <div class="card-footer3">
@@ -65,7 +65,7 @@ include 'navbar.php';
   </div>
 </div></div>
 
+<? include 'footer.php'; ?>
+
 </body>
 </html>
-
-<? include 'footer.php'; ?>

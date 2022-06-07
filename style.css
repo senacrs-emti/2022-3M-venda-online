@@ -174,7 +174,7 @@ body {
    }
    section.section-1 div.text-container{
         color: white;
-        width: 50%;
+        width: 40%;
         margin-right: 10rem;
    }
    section.section-1 div.text-container h4{
@@ -337,17 +337,33 @@ p {
     width: 90px;
     margin-left: 50px;
 }
-h5{
-    font-size: 45px;
-    color: white;
-    text-align: center;
-    -webkit-text-stroke-width: 1.5px; /* largura da borda */
-    -webkit-text-stroke-color: #000; /* cor da borda */
+
+.navbar {
+    position: fixed;
 }
-h6{
-    font-size: 45px;
-    color: white;
-    text-align: center;
-    -webkit-text-stroke-width: 1.5px; /* largura da borda */
-    -webkit-text-stroke-color: #000; /* cor da borda */
+
+.card {
+    background-color: #000000;
+    border-radius: 15px;
 }
+
+.card-img-top {
+    border-radius: 15px;
+}
+
+h2{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    font-size: 30px;
+
+}
+
+section.section-1 div.text-container h4 {
+    margin-top: 70px;
+}
+
+.btn-primary{
+    border-radius: 10px;
+}
+
