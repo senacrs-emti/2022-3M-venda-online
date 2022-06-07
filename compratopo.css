@@ -7,7 +7,7 @@
 
 body {
     font-size: 1.6rem;
-    background-color: rgb(52, 58, 64); ;
+    background: linear-gradient( to right, rgb(42, 67, 206), #0d80bf );
 }
 
 .button {
