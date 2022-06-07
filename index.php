@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Base do Grêmio</title>
 </head>
-<body style="background-color: #354e7c">
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; width: 100%;">
   <a class="navbar-brand" href="index.php"><img src="./imagens/basegremio.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
@@ -47,9 +48,14 @@
   </div>
 </nav>
 
+
+<div class="container-fluid">
+<div class="row">
     <section class="section-1">
       <div class="img-container">
+        <br>
         <img src="imagens\arenagremio.jpg" alt="Imagem da arena do Grêmio">
+        </br>
         <div class="img-shadow">
         </div>
       </div>
@@ -58,9 +64,58 @@
       </div>
     
     </section>
-    
+</div>
 
+<h2>Próximos Jogos</h2>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="imagens/gremioxnovo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
+        </div>
+      </div>
+    </div>
     
+    <div class="col">
+      <div class="card">
+        <img src="imagens/gremioxsampaio.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    
+</div>
+
+<br>
+<br>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="imagens/gremioelondrina.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card">
+        <img src="imagens/gremioxnautico.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    
+</div>
+</br>
+</br>
 
 
   
