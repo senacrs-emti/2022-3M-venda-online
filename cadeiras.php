@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'compratopo.php';  ?>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cadeiras.css" />
-    <link rel="icon" href="imagens/gremio.png">
-    <title>Base do Grêmio</title>
   </head>
   <body>
     <div class="movie-container">
@@ -22,22 +17,21 @@
     <ul class="showcase">
       <li>
         <div class="seat"></div>
-        <small>Disponível</small>
+        <small class="letra" >Disponível</small>
       </li>
       <li>
         <div class="seat selected"></div>
-        <small>Selecionada</small>
+        <small class="letra" >Selecionada</small>
       </li>
       <li>
         <div class="seat sold"></div>
-        <small>Vendidas</small>
+        <small class="letra" >Vendidas</small>
       </li>
     </ul>
     <div class="container">
-      <div class="screen"><img src="imagens/estadio.jpg" class="screen"></div>
-
       <div class="row">
-        <div class="seat"></div>
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"
+        ></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
@@ -48,37 +42,7 @@
       </div>
 
       <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat sold"></div>
@@ -88,7 +52,37 @@
         <div class="seat"></div>
       </div>
       <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
@@ -105,6 +99,13 @@
         >0</span
       >
     </p>
+
+    <a class="fancy" href="compra.php">
+  <span class="top-key"></span>
+  <span class="text">Comprar</span>
+  <span class="bottom-key-1"></span>
+  <span class="bottom-key-2"></span>
+</a>
+
     <script src="cadeiras.js"></script>
   </body>
-</html>

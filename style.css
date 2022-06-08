@@ -7,7 +7,7 @@
 
 body {
     font-size: 1.6rem;
-    background-color: rgb(52, 58, 64); ;
+    background-color: rgb(52, 58, 64);
 }
 
 .button {
@@ -293,7 +293,7 @@ footer nav ul li a img {
 
 footer {
 
-    background-color: #354e7c!important;
+    background-color: black!important;
     width: 100%;
     height: auto;
     display: block;
@@ -302,7 +302,8 @@ footer {
 
 p {
     color: white;
-    text-align: justify;
+    text-align: center;
+    font-size: 15px;
 }
 
 .logo {
@@ -317,7 +318,6 @@ p {
 
  .navbar-brand img {
      width: 100%;
-
 
  }
 
@@ -353,10 +353,10 @@ p {
 
 h2{
     color: white;
-    margin-left: 50px;
-    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 30px;
-
 }
 
 section.section-1 div.text-container h4 {
