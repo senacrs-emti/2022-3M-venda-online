@@ -3,7 +3,6 @@ $(document).ready(function(){
         
       $.ajax({
           type: "POST",
-          data: ,
           url: "cadastro.php", 
           success: function(result){
 
@@ -13,6 +12,29 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $("#chk").click(function(){
+      $()
+    });
+  });
+
+  function transformPopUp()  {
+    if (chk.checked == true){
+      document.getElementById("popupUser").style.transform = "translateY(230%)"
+    } else {
+      document.getElementById("popupUser").style.transform = "translateY(100%)"
+    }
+  }
+
+// ---------- VAI MAS NAO VOLTA -----------
+  // function transformPopUp() {
+  //   let popupUser = document.getElementById('popupUser');
+  //     if (condition) {
+  //     popupUser.style.transform = "translateY(230%)";
+  //     } else {
+  //       popupUser.style.transform = "translateY(-230%)";
+  //     }
+  // }
 
 //   function closePopupUser() {
 //     let popupUser = document.getElementById('popupUser');

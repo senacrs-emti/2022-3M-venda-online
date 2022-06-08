@@ -90,7 +90,7 @@ button:hover{
 	transform: scale(.6);
 }
 
-login:hover {
+.login:hover {
     color: #f8c300;
 }
 
@@ -104,14 +104,21 @@ login:hover {
 	transform: scale(.6);
 }
 
+/* #chk:checked ~ .popup-user{					
+	transform: translateY(+100%);
+} */
+
 .popup-user {
 	z-index: 1000000;
 	position: absolute;
-	top: 190px;
+	transition: .8s ease-in-out;
+	transform: translateY(+100%);
+	right: 0;
+	left: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 0 auto !important;
 	height: 50px;
 	width: 200px;
 	color: white;
