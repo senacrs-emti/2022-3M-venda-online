@@ -65,7 +65,11 @@ include 'topo.php';
   </div>
 </div></div>
 
-<? include 'footer.php'; ?>
+<?php 
+
+include_once 'footer.php';
+
+?>
 
 </body>
 </html>

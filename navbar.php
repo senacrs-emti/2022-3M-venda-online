@@ -9,7 +9,6 @@
     <link rel="icon" href="imagens/gremio.png">
     <title>Base do Grêmio</title>
 </head>
-<body style="background-color: #354e7c">
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
   <a class="navbar-brand" href="index.php"><img src="./imagens/basegremio.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
