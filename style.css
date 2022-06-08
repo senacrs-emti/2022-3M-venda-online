@@ -366,21 +366,13 @@ section.section-1 div.text-container h4 {
 .btn-primary{
     border-radius: 10px;
 }
-h5{
-    color: rgb(63, 159, 222);
-    margin-top: 20px;
-    text-align: center;
-    font-size: 30px;
-}
-h6{
-    color: rgb(63, 159, 222);
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 30px;
-}
-a{
+
+#noticia1 {
     color: white;
+
 }
-td{
+
+#noticia2 {
     color: white;
+
 }
