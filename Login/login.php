@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -31,7 +30,7 @@
 			</div>
  
 			<div class="login"> <!-- Login de Usuário!-->
-				<form method="GET" action="Perfil/index.php">
+				<form method="POST" action="Perfil/index.php">
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="Email" placeholder="Email" required="">
 					<input type="password" name="Senha" placeholder="Senha" required="">
