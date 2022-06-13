@@ -345,10 +345,11 @@ p {
 
 .card {
     background-color: black;
-    float: fixed;
+    border-radius: 20px;
+    float: left;
     position: absolute;
-    top:56%;
-    left: 50px;
+    top: 56%;
+    left: 40px;
 }
 
 .card-img-top {
