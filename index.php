@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imagens/gremio.png">
     <title>Base do Grêmio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/gremio.png">
 </head>
 <body>
+<<<<<<< Updated upstream
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; width: 100%;">
+=======
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+>>>>>>> Stashed changes
   <a class="navbar-brand" href="index.php"><img src="./imagens/basegremio.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
@@ -46,9 +51,14 @@
   </div>
 </nav>
 
+<<<<<<< Updated upstream
 
 <div class="container-fluid">
 <div class="row">
+=======
+  <div class="container-fluid">
+  <div class="row">
+>>>>>>> Stashed changes
     <section class="section-1">
       <div class="img-container">
         <br>
@@ -63,6 +73,7 @@
     
     </section>
 </div>
+<<<<<<< Updated upstream
 
 <h2>Próximos Jogos</h2>
 <div class="container">
@@ -93,24 +104,74 @@
 
 <br>
 <br>
+=======
+</div>
+
+>>>>>>> Stashed changes
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">
+<<<<<<< Updated upstream
         <img src="imagens/gremioelondrina.png" class="card-img-top" alt="...">
         <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
+=======
+        <img src="imagens/gremioxnovo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+>>>>>>> Stashed changes
         </div>
       </div>
     </div>
     
     <div class="col">
       <div class="card">
+<<<<<<< Updated upstream
         <img src="imagens/gremioxnautico.png" class="card-img-top" alt="...">
         <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
+=======
+        <img src="imagens/gremioxsampaio.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+>>>>>>> Stashed changes
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    
+</div>
+<<<<<<< Updated upstream
+</br>
+</br>
+=======
+>>>>>>> Stashed changes
+
+<br>
+<br>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="imagens/gremioxnovo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card">
+        <img src="imagens/gremioxsampaio.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
@@ -119,10 +180,8 @@
 </div>
 </br>
 </br>
-
-
-  
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
@@ -143,9 +202,10 @@
 </ul>
 </nav>
 
-
-
-
-
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
