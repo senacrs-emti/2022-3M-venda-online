@@ -304,6 +304,7 @@ p {
     color: white;
     text-align: center;
     font-size: 15px;
+    margin-right: 600px;
 }
 
 .logo {
@@ -339,7 +340,7 @@ p {
 }
 
 .navbar {
-    position: relative;
+    position: fixed;
 }
 
 .card {
@@ -391,3 +392,4 @@ h6{
     margin-bottom: 25px;
     font-size: 30px;
 }
+
