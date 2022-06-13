@@ -393,3 +393,36 @@ h6{
     font-size: 30px;
 }
 
+#textoum h2 {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#textodois h3 {
+    color: white;
+    text-align: center;
+}
+
+#textotres p {
+    color: #808080;
+}
+
+#imagemum img {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#textoquatro p {
+    text-align: justify;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: 20px;
+}
+
+#noticia3 h3 {
+    color: white;
+}
+
