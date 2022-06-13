@@ -343,12 +343,12 @@ p {
     position: relative;
 }
 
-.card {
+.card5 {
     background-color: black;
     border-radius: 20px;
     float: left;
     position: absolute;
-    top: 56%;
+    top: 80px;
     left: 40px;
 }
 

@@ -30,7 +30,7 @@ Já foi campeão da Copa Libertadores da América em três ocasiões, o que o to
 <p>- Campeão da Copa Sul-Brasileira em 1999;</p>
 
 <br>
-<div class="card">
+<div class="card5">
     <table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
     <tr style="vertical-align: top;">
         <td></td>
