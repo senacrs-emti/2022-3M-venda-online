@@ -11,10 +11,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="imagens/gremio.png">
 </head>
 <body>
-<<<<<<< Updated upstream
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; width: 100%;">
-=======
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
 >>>>>>> Stashed changes
   <a class="navbar-brand" href="index.php"><img src="./imagens/basegremio.png"></a>
