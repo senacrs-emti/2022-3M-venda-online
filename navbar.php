@@ -30,8 +30,6 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
           <a class="dropdown-item" href="camarotes.php">Camarotes</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="marca.php">Sua marca na Arena</a>
         </div>
       </li>
       <li class="nav-item">

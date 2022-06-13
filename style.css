@@ -358,8 +358,8 @@ p {
 
 h2{
     color: rgb(63, 159, 222);
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 30px;
 }
@@ -429,4 +429,56 @@ h6{
 #noticia3 h3 {
     color: white;
 }
+
+#card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+#listas {
+    margin-left: 113px;
+    color: #A9A9A9;
+}
+
+#listas a {
+    color: #A9A9A9	;
+}
+
+#textocinco {
+    text-align: justify;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: 20px;
+}
+
+#gremio {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(63, 159, 222);
+    
+}
+
+.infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+}
+
+
+
+
 

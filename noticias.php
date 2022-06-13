@@ -4,15 +4,18 @@ include_once 'navbar.php';
 
 ?>
 
-
-<span class="d-block p-2 bg-primary text-white">d-block
-<h2>Notícias</h2>
-</span>
+<h2><b>Notícias</b></h2>
+<div id="listas">
+<a href="index.php">Início</a>
+/
+<a href="noticias.php">Notícias</a>
 </div>
 
+
 <br>
 <br>
-<div class="col-lg-12 m-b-12">
+<div id="card1">
+<div class="col-lg-10 m-b-10">
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="imagens/noticiagremio.jpg" alt="Imagem de capa do card">
@@ -54,11 +57,13 @@ include_once 'navbar.php';
 </div>
 </div>
 </div>
+</div>
 
 <br>
 
-<div class="col-lg-12 m-b-12">
-<div class="card-deck">
+<div id="card2">
+<div class="col-lg-10 m-b-10">
+ <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="imagens/noticiagremio.jpg" alt="Imagem de capa do card">
     <div class="card-body">
@@ -96,6 +101,7 @@ include_once 'navbar.php';
         </a>
     </div>
   </div>
+</div>
 </div>
 </div>
 </div>
