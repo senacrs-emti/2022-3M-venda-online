@@ -24,8 +24,8 @@
 				<form method="POST" action="cadastro.php">
 					<label for="chk" aria-hidden="true">Cadastrar</label>
 					<input type="text" id="NomeDeUsuario" name="NomeDeUsuario" placeholder="Nome de Usuário" required="">
-					<input type="Email" name="Email" placeholder="Email" required="">
-					<input type="password" name="Senha" placeholder="Senha" required="">
+					<input type="Email" id="Email" name="Email" placeholder="Email" required="">
+					<input type="password" id="Senha" name="Senha" placeholder="Senha" required="">
 					<button id="btCadastro" href="Perfil/index.php">Cadastro</button>
 				</form>
 			</div>

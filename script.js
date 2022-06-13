@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
 
     $.ajax({
-      url: "./script.php",
+      url: "./cadastro.php",
       type: "POST",
       data: 'Email='+Email+'&NomeDeUsuario='+NomeDeUsuario+'&Senha='+Senha,
       dataType: "html"  
