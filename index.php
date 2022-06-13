@@ -49,14 +49,9 @@
   </div>
 </nav>
 
-<<<<<<< Updated upstream
 
 <div class="container-fluid">
 <div class="row">
-=======
-  <div class="container-fluid">
-  <div class="row">
->>>>>>> Stashed changes
     <section class="section-1">
       <div class="img-container">
         <br>
@@ -71,7 +66,6 @@
     
     </section>
 </div>
-<<<<<<< Updated upstream
 
 <h2>Próximos Jogos</h2>
 <div class="container">
@@ -102,53 +96,32 @@
 
 <br>
 <br>
-=======
-</div>
-
->>>>>>> Stashed changes
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">
-<<<<<<< Updated upstream
         <img src="imagens/gremioelondrina.png" class="card-img-top" alt="...">
         <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
-=======
-        <img src="imagens/gremioxnovo.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
->>>>>>> Stashed changes
         </div>
       </div>
     </div>
     
     <div class="col">
       <div class="card">
-<<<<<<< Updated upstream
         <img src="imagens/gremioxnautico.png" class="card-img-top" alt="...">
         <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
-=======
-        <img src="imagens/gremioxsampaio.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
->>>>>>> Stashed changes
         </div>
       </div>
     </div>
   </div>
 </div>    
 </div>
-<<<<<<< Updated upstream
 </br>
 </br>
-=======
->>>>>>> Stashed changes
 
 <br>
 <br>

@@ -2,17 +2,8 @@
 include_once 'navbar.php';
 ?>
 
-<<<<<<< Updated upstream
 
 <h2>Sobre</h2>
-=======
-<h2><b>Sobre</b></h2>
-<div id="listas">
-<a href="index.php">Início</a>
-/
-<a href="sobre.php">Sobre</a>
-</div>
->>>>>>> Stashed changes
 
 <div id="gremio">
 <h1>Grêmio Foot-Ball Porto Alegrense</h1>
@@ -45,7 +36,6 @@ include_once 'navbar.php';
 <p>- Campeão da Copa Sul-Brasileira em 1999;</p>
 
 <br>
-<<<<<<< Updated upstream
 <div class="card5">
     <table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
     <tr style="vertical-align: top;">
@@ -123,8 +113,6 @@ include_once 'navbar.php';
 
 
 </div>
-=======
->>>>>>> Stashed changes
 
 
 <?php 
