@@ -109,3 +109,5 @@
 
     <script src="cadeiras.js"></script>
   </body>
+
+  <?php include 'footer.php' ?>
