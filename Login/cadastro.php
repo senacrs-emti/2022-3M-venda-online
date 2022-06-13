@@ -1,5 +1,4 @@
 <?php
-
 /* Conexão com o DB para fazer o cadastro de Usuário */
 
 $NomeDeUsuario = $_POST['NomeDeUsuario'];
@@ -15,26 +14,26 @@ $result = mysqli_query($conn,$sql);
 $array = mysqli_fetch_array($result);
 $logarray = $array['Email'];
 
-$verifyUser = mysqli_query($conn, "SELECT * FROM logindeusuario WHERE NomeDeUsuario = '$NomeDeUsuario'");
+$verifyUser = mysqli_query($conn, "SELECT * FROM logindeusuario WHERE NomeDeUsuario = '$NomeDeUsuario' AND ");
 $verifyEmail = mysqli_query($conn ,"SELECT * FROM logindeusuario WHERE Email = '$Email'");
 
 
-if (mysqli_num_rows($verifyUser) !=0) {
-    echo "Já existe este nome de usúario.";
-} else {
-    if (mysqli_num_rows($verifyEmail) !=0) {
-        echo "Já existe este Email.";
-    } else {
-        $query = "INSERT INTO logindeusuario (NomeDeUsuario,Email,Senha) VALUES ('$NomeDeUsuario','$Email','$Senha')";
-        $insert = mysqli_query($conn,$query);
-        echo 'Usuario cadastrado com sucesso!';
-    }    
-}
+// if (mysqli_num_rows($verifyUser) !=0) {
+//     echo "Já existe este nome de usúario.";
+// } else {
+//     if (mysqli_num_rows($verifyEmail) !=0) {
+//         echo "Já existe este Email.";
+//     } else {
+//         $query = "INSERT INTO logindeusuario (NomeDeUsuario,Email,Senha) VALUES ('$NomeDeUsuario','$Email','$Senha')";
+//         $insert = mysqli_query($conn,$query);
+//         echo 'Usuario cadastrado com sucesso!';
+//     }    
+// }
 
 
 
 
-header('location: ../Login/Perfil/index.php');
-
+// header('location: ../Login/Perfil/index.php');
+exit('DEU');
 ?>
 
