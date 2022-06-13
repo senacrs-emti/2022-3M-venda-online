@@ -2,6 +2,7 @@
 include_once 'navbar.php';
 ?>
 
+
 <h2>Sobre</h2>
 
 <p>O Grêmio Foot-Ball Porto Alegrense é um clube de futebol brasileiro da cidade de Porto Alegre, no Rio Grande do Sul, fundado em 15 de setembro de 1903 por Candido Dias da Silva. É considerado um dos maiores clubes do Brasil e da América do Sul. Suas cores são azul, preto e branco. O clube tem como alcunhas Imortal Tricolor, Tricolor dos Pampas, Tricolor Gaúcho, Rei de Copas e Clube de Todos.
@@ -29,79 +30,83 @@ Já foi campeão da Copa Libertadores da América em três ocasiões, o que o to
 <p>- Campeão da Copa Sul-Brasileira em 1999;</p>
 
 <br>
+<div class="card5">
+    <table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+    <tr style="vertical-align: top;">
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><a href="/wiki/Ficheiro:Gremio-Logo.png" class="image"><img alt="Gremio-Logo.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/120px-Gremio-Logo.png" decoding="async" width="120" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/180px-Gremio-Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/240px-Gremio-Logo.png 2x" data-file-width="539" data-file-height="595"></a></td>
+    </tr>  
+    <tr style="vertical-align: top; color: white;">
+        <td><b>Nome:</b></td>
+        <td>Grêmio Foot-Ball Porto Alegrense</td>
+    </tr>
 
-<table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
-
-<tbody><tr style="vertical-align: top;">
-<td></td></tr><tr><td colspan="2" style="text-align: center;"><a href="/wiki/Ficheiro:Gremio-Logo.png" class="image"><img alt="Gremio-Logo.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/120px-Gremio-Logo.png" decoding="async" width="120" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/180px-Gremio-Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/240px-Gremio-Logo.png 2x" data-file-width="539" data-file-height="595"></a>
-</td></tr>  
-
-<tr style="vertical-align: top;">
-<td><b>Nome:</b></td>
-<td>Grêmio Foot-Ball Porto Alegrense
+<tr style="vertical-align: top; color: white;">
 </td></tr>
 
-<tr style="vertical-align: top;">
-</td></tr>
-
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Torcedor/Adepto:</b></td>
 <td>Gremista <br> Tricolor
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Mascote:</b></td>
 <td><a title="Mosqueteiro">Mosqueteiro</a><sup id="cite_ref-estrelas_3-0" class="reference"></span></a></sup>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Principal rival:</b></td>
 <td><a title="Sport Club Internacional">Internacional</a><br><a title="Esporte Clube Juventude">Juventude</a>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Fundação:</b></td>
 <td><span style="white-space:nowrap;"><a title="15 de setembro">15 de setembro</a> de <a title="1903">1903</a> (118 anos)</span></a></sup>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Estádio:</b></td>
 <td><a title="Arena do Grêmio">Arena do Grêmio</a><sup</a></sup>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Capacidade:</b></td>
 <td>55.662 torcedores
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Localização:</b></td>
 <td><a title="Porto Alegre">Porto Alegre</a>, <a title="Rio Grande do Sul">RS</a>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Presidente:</b></td>
 <td><a title="Romildo Bolzan Júnior">Romildo Bolzan Júnior</a></sup>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Treinador:</b></td>
 <td><a title="Roger Machado">Roger Machado</a>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Patrocinador:</b></td>
 <td><a title="Banrisul">Banrisul</a>
 </td></tr>
 
-<tr style="vertical-align: top;">
+<tr style="vertical-align: top; color: white;">
 <td><b>Material esportivo:</b></td>
 <td><a title="Umbro">Umbro</a></sup>
 </td></tr>
 
-<tr style="vertical-align: top;">
-</p>
+<tr style="vertical-align: top; color: white;">
 </td></tr>
+</table>
+
+
+</div>
 
 
 <?php 

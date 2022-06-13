@@ -1,5 +1,3 @@
-<? include 'conexao.php';?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +29,7 @@
                 <div class="col-md-6">
                     <div class="profile-head" action="user.php">
                         <h5>
-                            <?php echo $nome_log; ?>
+                            <?php echo $nome; ?>
                         </h5>
                         <h6>
                             Web Developer and Designer

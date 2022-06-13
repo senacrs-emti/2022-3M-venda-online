@@ -87,7 +87,7 @@
     </form>
 
 </div>    
-    
+<script src="compra.js"></script>
 </body>
 
 <?php include 'footer.php'; ?> 
