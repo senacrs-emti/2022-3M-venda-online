@@ -30,20 +30,18 @@ Já foi campeão da Copa Libertadores da América em três ocasiões, o que o to
 <p>- Campeão da Copa Sul-Brasileira em 1999;</p>
 
 <br>
-
-
 <div class="card">
-
-<table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
-
-<tbody><tr style="vertical-align: top;">
-<td></td></tr><tr><td colspan="2" style="text-align: center;"><a href="/wiki/Ficheiro:Gremio-Logo.png" class="image"><img alt="Gremio-Logo.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/120px-Gremio-Logo.png" decoding="async" width="120" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/180px-Gremio-Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/240px-Gremio-Logo.png 2x" data-file-width="539" data-file-height="595"></a>
-</td></tr>  
-
-<tr style="vertical-align: top; color: white;">
-<td><b>Nome:</b></td>
-<td>Grêmio Foot-Ball Porto Alegrense
-</td></tr>
+    <table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+    <tr style="vertical-align: top;">
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><a href="/wiki/Ficheiro:Gremio-Logo.png" class="image"><img alt="Gremio-Logo.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/120px-Gremio-Logo.png" decoding="async" width="120" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/180px-Gremio-Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gremio-Logo.png/240px-Gremio-Logo.png 2x" data-file-width="539" data-file-height="595"></a></td>
+    </tr>  
+    <tr style="vertical-align: top; color: white;">
+        <td><b>Nome:</b></td>
+        <td>Grêmio Foot-Ball Porto Alegrense</td>
+    </tr>
 
 <tr style="vertical-align: top; color: white;">
 </td></tr>
@@ -104,10 +102,12 @@ Já foi campeão da Copa Libertadores da América em três ocasiões, o que o to
 </td></tr>
 
 <tr style="vertical-align: top; color: white;">
-</p>
 </td></tr>
+</table>
+
 
 </div>
+
 
 <?php 
 include_once 'footer.php';

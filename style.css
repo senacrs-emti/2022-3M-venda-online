@@ -344,8 +344,12 @@ p {
 }
 
 .card {
-    background-color: #000000;
-    border-radius: 15px;
+    background-color: black;
+    border-radius: 20px;
+    float: left;
+    position: absolute;
+    top: 56%;
+    left: 40px;
 }
 
 .card-img-top {
