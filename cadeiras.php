@@ -7,10 +7,10 @@
     <div class="movie-container">
       <label> Selecione um Assento:</label>
       <select id="movie">
-        <option value="220">Grêmio x n sei</option>
-        <option value="320">Grêmio x n sei</option>
-        <option value="250">Grêmio x n sei</option>
-        <option value="260">Grêmio x n sei</option>
+        <option value="220">Grêmio x Barcelona</option>
+        <option value="320">Grêmio x Novorizontino</option>
+        <option value="250">Grêmio x Pelotas</option>
+        <option value="260">Grêmio x Sampaio</option>
       </select>
     </div>
 
@@ -45,21 +45,11 @@
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
       </div>
       <div class="row">
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
@@ -75,8 +65,8 @@
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
@@ -86,9 +76,19 @@
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
         <div class="seat"></div>
       </div>
     </div>

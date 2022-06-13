@@ -132,6 +132,7 @@ body {
 
    .navbar {
         padding: 0.8rem 1.6rem !important;
+        margin-top: 60px;
         z-index: 1000;
    }
 
