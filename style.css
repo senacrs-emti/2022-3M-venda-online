@@ -476,7 +476,33 @@ h6{
       margin-bottom: 20px;
       margin-right: 40px;
       left: 20px;
-      
+  }
+
+  .table-bordered {
+    text-align: center;
+    margin-left: 100px;
     
   }
+
+  #mundiais {
+    margin-left: 100px;
+    text-align: center;
+    width: 1149px;
+  }
   
+
+  .table thead th {
+    color: white;
+  } 
+
+  .table td {
+    color: white;
+    position: relative;
+    top: 25px;
+  }
+
+
+#gaucho {
+    margin-left: 50px;
+    margin-right: 50px;
+}

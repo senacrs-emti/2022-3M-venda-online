@@ -98,10 +98,225 @@ include_once 'navbar.php';
 
 </div>
 
+<h2><b>Títulos</h2>
+<div id="mundiais">
+<div class="col-lg-11 m-b-11">
+<span class="d-block p-2 bg-primary text-white">MUNDIAIS</span>
+</div>
+</div>
+<div class="col-lg-10 m-b-10">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Competição</th>
+      <th scope="col">Títulos</th>
+      <th scope="col">Temporadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/mundial.png" height="75"> </th>
+      <td>Copa Intercontinental</td>
+      <td>1</td>
+      <td>1983 *</td>
+        </div>
+    </tr>
+    
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div id="mundiais">
+<div class="col-lg-11 m-b-11">
+<span class="d-block p-2 bg-primary text-white">CONTINENTAIS</span>
+</div>
+</div>
+<div class="col-lg-10 m-b-10">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Competição</th>
+      <th scope="col">Títulos</th>
+      <th scope="col">Temporadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/Libertadores.png" height="75"> </th>
+      <td>Copa Libertadores da América</td>
+      <td>3</td>
+      <td>1983, 1995 e 2017</td>
+        </div>
+    </tr>
+    <div class="col-lg-10 m-b-10">
 
-<br>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/recopa.png" height="75"> </th>
+      <td>Recopa Sul-Americana</td>
+      <td>2</td>
+      <td>1996* e 2018*</td>
+        </div>
+    </tr>
+    
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div id="mundiais">
+<div class="col-lg-11 m-b-11">
+<span class="d-block p-2 bg-primary text-white">NACIONAIS</span>
+</div>
+</div>
+<div class="col-lg-10 m-b-10">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Competição</th>
+      <th scope="col">Títulos</th>
+      <th scope="col">Temporadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/brasileiro.png" height="75"> </th>
+      <td>Campeonato Brasileiro</td>
+      <td>2</td>
+      <td>1981 e 1996</td>
+        </div>
+    </tr>
+    <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/cb.png" height="75"> </th>
+      <td>Copa do Brasil</td>
+      <td>3</td>
+      <td>1983, 1995 e 2017</td>
+        </div>
+    </tr>
+    <div class="col-lg-10 m-b-10">
 
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/supercopa.png" height="75"> </th>
+      <td>Supercopa do Brasil</td>
+      <td>2</td>
+      <td>1996* e 2018*</td>
+        </div>
+    </tr>
+    
+    </tr>
+    <div class="col-lg-10 m-b-10">
 
-<?php 
-include_once 'footer.php';
-?>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/serieb.png" height="75"> </th>
+      <td>Campeonato Brasileiro - Série B</td>
+      <td>2</td>
+      <td>1996* e 2018*</td>
+        </div>
+    </tr>
+    
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div id="mundiais">
+<div class="col-lg-11 m-b-11">
+<span class="d-block p-2 bg-primary text-white">INTERESTADUAIS</span>
+</div>
+</div>
+<div class="col-lg-10 m-b-10">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Competição</th>
+      <th scope="col">Títulos</th>
+      <th scope="col">Temporadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/CopaSul1999.png" height="75"> </th>
+      <td>Copa Sul</td>
+      <td>1</td>
+      <td>1999</td>
+        </div>
+    </tr>
+    <div class="col-lg-10 m-b-10">
+
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/SulBrasileiro.png" height="75"> </th>
+      <td>Campeonato Sul-Brasileiro</td>
+      <td>1</td>
+      <td>1962*</td>
+        </div>
+    </tr>
+    
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div id="mundiais">
+<div class="col-lg-11 m-b-11">
+<span class="d-block p-2 bg-primary text-white">ESTADUAIS</span>
+</div>
+</div>
+<div class="col-lg-10 m-b-10">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Competição</th>
+      <th scope="col">Títulos</th>
+      <th scope="col">Temporadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/brasileiro.png" height="75"> </th>
+      <td>Campeonato Gaúcho</td>
+      <td>41</td>
+      <div id="gaucho">
+      <td>1921*, 1922, 1926*, 1931*, 1932*, 1946*, 1949*, 1956*, 1957, 1958, 1959*, 1960*, 1962, 1963, 1964, 1965*, 1966, 1967, 1968, 1977, 1979, 1980, 1985, 1986, 1987, 1988, 1989, 1990, 1993, 1995, 1996, 1999, 2001, 2006, 2007, 2010, 2018, 2019*, 2020, 2021 e 2022</td>
+        </div>
+        </div>
+    </tr>
+    <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/cb.png" height="75"> </th>
+      <td>Copa do Brasil</td>
+      <td>3</td>
+      <td>1983, 1995 e 2017</td>
+        </div>
+    </tr>
+    <tbody>
+    <tr>
+        <div id="tabela">
+      <th scope="row"><img src="imagens/brasileiro.png" height="75"> </th>
+      <td>Campeonato Brasileiro</td>
+      <td>2</td>
+      <td>1981 e 1996</td>
+        </div>
+    </tr>
+   
+
