@@ -19,23 +19,23 @@
 			<div class="signup"> <!-- Cadastro de Usuário!-->
 				<div for="chk" class="popup-user" id="popupUser" >
 					<span class="close-button material-symbols-outlined" onclick="closePopupUser()">close</span>
-					<span>Este usuário ja existe</span>
+					<span id="innerText"></span>
 				</div>
-				<form method="POST" action="cadastro.php">
+				<form method="POST" action="">
 					<label for="chk" aria-hidden="true">Cadastrar</label>
-					<input type="text" id="NomeDeUsuario" name="NomeDeUsuario" placeholder="Nome de Usuário" required="">
-					<input type="Email" id="Email" name="Email" placeholder="Email" required="">
-					<input type="password" id="Senha" name="Senha" placeholder="Senha" required="">
-					<button id="btCadastro" href="Perfil/index.php">Cadastro</button>
+					<input type="text" id="NomeDeUsuario" name="NomeDeUsuario" placeholder="Nome de Usuário" required>
+					<input type="Email" id="Email" name="Email" placeholder="Email" required>
+					<input type="password" id="Senha" name="Senha" placeholder="Senha" required>
+					<button id="btCadastro">Cadastro</button>
 				</form>
 			</div>
  
 			<div class="login"> <!-- Login de Usuário!-->
 				<form method="POST" action="Perfil/index.php">
 					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="Email" placeholder="Email" required="">
-					<input type="password" name="Senha" placeholder="Senha" required="">
-					<button id="login" name="login" href="Perfil/index.php">Login</button>
+					<input type="email" name="Email" placeholder="Email" required>
+					<input type="password" name="Senha" placeholder="Senha" required>
+					<button id="login" name="login">Login</button>
 				</form>
 			</div>
 	</div>

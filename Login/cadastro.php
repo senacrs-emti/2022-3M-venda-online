@@ -19,14 +19,14 @@ $verifyEmail = mysqli_query($conn ,"SELECT * FROM logindeusuario WHERE Email = '
 
 
 if (mysqli_num_rows($verifyUser) !=0) {
-     exit("Já existe este nome de usúario.");
+     exit("1");
 } else {
     if (mysqli_num_rows($verifyEmail) !=0) {
-        exit("Já existe este Email.");
+        exit("2");
     } else {
         $query = "INSERT INTO logindeusuario (NomeDeUsuario,Email,Senha) VALUES ('$NomeDeUsuario','$Email','$Senha')";
         $insert = mysqli_query($conn,$query);
-        exit('Usuario cadastrado com sucesso!');
+        exit("3");
     }    
 }
 
