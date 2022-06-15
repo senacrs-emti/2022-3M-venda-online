@@ -343,9 +343,15 @@ p {
     position: relative;
 }
 
-.card {
-    background-color: #000000;
-    border-radius: 15px;
+.card9 {
+    background-color: black;
+    border-radius: 20px;
+    float: left;
+    height: 495px;
+    width: 350px;
+}
+#textos{
+    float: right;
 }
 
 .card-img-top {
