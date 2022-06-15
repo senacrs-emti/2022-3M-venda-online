@@ -110,8 +110,18 @@ include_once 'navbar.php';
 <tr style="vertical-align: top; color: white;">
 </td></tr>
 </table>
+</div>
+</br> 
+<div id="gremio">
+<h1>Grêmio Foot-Ball Porto Alegrense</h1>
+</div>
+<div id="textocinco">
+<p>O Grêmio Foot-Ball Porto Alegrense é um clube de futebol brasileiro da cidade de Porto Alegre, no Rio Grande do Sul, fundado em 15 de setembro de 1903 por Candido Dias da Silva. É considerado um dos maiores clubes do Brasil e da América do Sul. Suas cores são azul, preto e branco. O clube tem como alcunhas Imortal Tricolor, Tricolor dos Pampas, Tricolor Gaúcho, Rei de Copas e Clube de Todos. </p>
 
 </div>
+
+
+<br>
 
 
 <?php 

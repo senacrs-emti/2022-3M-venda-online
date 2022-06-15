@@ -4,6 +4,7 @@ include_once 'navbar.php';
 
 ?>
 
+
 <h2><b>Notícias</b></h2>
 <div id="listas">
 <a href="index.php">Início</a>
@@ -11,11 +12,9 @@ include_once 'navbar.php';
 <a href="noticias.php">Notícias</a>
 </div>
 
-
 <br>
 <br>
-<div id="card1">
-<div class="col-lg-10 m-b-10">
+<div class="col-lg-12 m-b-12">
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="imagens/noticiagremio.jpg" alt="Imagem de capa do card">
@@ -57,13 +56,11 @@ include_once 'navbar.php';
 </div>
 </div>
 </div>
-</div>
 
 <br>
 
-<div id="card2">
-<div class="col-lg-10 m-b-10">
- <div class="card-deck">
+<div class="col-lg-12 m-b-12">
+<div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="imagens/noticiagremio.jpg" alt="Imagem de capa do card">
     <div class="card-body">
@@ -104,7 +101,6 @@ include_once 'navbar.php';
 </div>
 </div>
 </div>
-</div>
 </br>
 
 
@@ -117,4 +113,3 @@ include_once 'navbar.php';
 include_once 'footer.php';
 
 ?>
-

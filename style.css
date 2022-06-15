@@ -433,54 +433,56 @@ h6{
 }
 
 #card1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#card2 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-
-#listas {
-    margin-left: 113px;
-    color: #A9A9A9;
-}
-
-#listas a {
-    color: #A9A9A9	;
-}
-
-#textocinco {
+  
+  #card2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+  #listas {
+      margin-left: 113px;
+      color: #A9A9A9;
+  }
+  
+  #listas a {
+      color: #A9A9A9	;
+  }
+  
+  #textocinco p {
     text-align: justify;
-    margin-left: 330px;
-    margin-right: 330px;
-    margin-top: 20px;
-}
-
-#gremio {
-    text-align: center;
-    text-decoration: underline;
-    color: rgb(63, 159, 222);
+      margin-left: 330px;
+      margin-right: 330px;
+      margin-top: 20px;
+      position: relative;
+      right: 150px;
+      margin-bottom: 50px;
+  }
+  
+  #gremio h1 {
+      text-align: center;
+      text-decoration: underline;
+      color: rgb(63, 159, 222);
+      margin-bottom: 20px;
+      top: 60px;
+      
+      
+  }
+  
+  .infobox {
+      padding: 0.2em;
+      float: right;
+      clear: right;
+      margin-bottom: 20px;
+      margin-right: 40px;
+      left: 20px;
+      
     
-}
-
-.infobox {
-    border: 1px solid #a2a9b1;
-    border-spacing: 3px;
-    background-color: #f8f9fa;
-    color: black;
-    margin: 0.5em 0 0.5em 1em;
-    padding: 0.2em;
-    float: right;
-    clear: right;
-}
-
-
-
-
-
+  }
+  

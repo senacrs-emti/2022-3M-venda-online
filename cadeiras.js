@@ -4,6 +4,10 @@ const count = document.getElementById("count");
 const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
 
+var data = new Date (2023, 0, 01);  
+data = data.toGMTString();
+document.cookie = 'nome=Cadeiras; expires=' + data + '; path=cadeiras.php';
+
 populateUI();
 
 let ticketPrice = +movieSelect.value;
