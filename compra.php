@@ -1,5 +1,6 @@
 <?php include_once 'compratopo.php'; ?>
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="compra.css">
 
 </head>
+
 <body>
 
-<div class="container">
+<div class="container-fluid">
 
     <form action="">
 

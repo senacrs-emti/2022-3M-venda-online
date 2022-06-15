@@ -6,20 +6,19 @@ include_once 'navbar.php';
 <h2>Sobre</h2>
 
 <div id="gremio">
-<h1>Grêmio Foot-Ball Porto Alegrense</h1>
+    <h1>Grêmio Foot-Ball Porto Alegrense</h1>
 </div>
+
 <div id="textocinco">
-<p>O Grêmio Foot-Ball Porto Alegrense é um clube de futebol brasileiro da cidade de Porto Alegre, no Rio Grande do Sul, fundado em 15 de setembro de 1903 por Candido Dias da Silva. É considerado um dos maiores clubes do Brasil e da América do Sul. Suas cores são azul, preto e branco. O clube tem como alcunhas Imortal Tricolor, Tricolor dos Pampas, Tricolor Gaúcho, Rei de Copas e Clube de Todos. </p>
-
-<p>Já foi campeão da Copa Libertadores da América em três ocasiões, o que o torna o clube brasileiro com mais conquistas nesta competição, ao lado dos paulistas Palmeiras, São Paulo e Santos, e vice em duas outras oportunidades. Foi o primeiro clube fora da região Sudeste a conquistar títulos de dimensão continental e mundial, sendo campeão da América e do Mundo em 1983. Também é bicampeão da Recopa Sul-Americana, tendo conquistado este torneio em todas as vezes em que o disputou. Conquistou ainda dois Campeonatos Brasileiros da Série A, um Campeonato Brasileiro da Série B, cinco Copas do Brasil e uma Supercopa do Brasil, além de uma Copa Sul e um Campeonato Sul-Brasileiro. No âmbito estadual, já foi campeão quarenta e uma vezes do Campeonato Gaúcho, três vezes da Recopa Gaúcha e uma vez da Copa FGF. O clube ocupa, em 2021, a terceira colocação no ranking da CBF e a mesma colocação no ranking da Conmebol.</p>
-
+    <p>O Grêmio Foot-Ball Porto Alegrense é um clube de futebol brasileiro da cidade de Porto Alegre, no Rio Grande do Sul, fundado em 15 de setembro de 1903 por Candido Dias da Silva. É considerado um dos maiores clubes do Brasil e da América do Sul. Suas cores são azul, preto e branco. O clube tem como alcunhas Imortal Tricolor, Tricolor dos Pampas, Tricolor Gaúcho, Rei de Copas e Clube de Todos. </p>
+    <p>Já foi campeão da Copa Libertadores da América em três ocasiões, o que o torna o clube brasileiro com mais conquistas nesta competição, ao lado dos paulistas Palmeiras, São Paulo e Santos, e vice em duas outras oportunidades. Foi o primeiro clube fora da região Sudeste a conquistar títulos de dimensão continental e mundial, sendo campeão da América e do Mundo em 1983. Também é bicampeão da Recopa Sul-Americana, tendo conquistado este torneio em todas as vezes em que o disputou. Conquistou ainda dois Campeonatos Brasileiros da Série A, um Campeonato Brasileiro da Série B, cinco Copas do Brasil e uma Supercopa do Brasil, além de uma Copa Sul e um Campeonato Sul-Brasileiro. No âmbito estadual, já foi campeão quarenta e uma vezes do Campeonato Gaúcho, três vezes da Recopa Gaúcha e uma vez da Copa FGF. O clube ocupa, em 2021, a terceira colocação no ranking da CBF e a mesma colocação no ranking da Conmebol.</p>
 </div>
 
 
+<div id="textos">
 <h5>Títulos Internacionais</h5>
 
 <br>
-
 
 <p>- Mundial Interclubes 1983;</p>
 <p>- Copa Libertadores da América em 1983, 1995 e 2017;</p>
@@ -34,10 +33,11 @@ include_once 'navbar.php';
 <p>- Campeão da Copa do Brasil em 1989, 1994, 1997, 2001 e 2016;</p>
 <p>- Campeão Brasileiro da série B em 2005;</p>
 <p>- Campeão da Copa Sul-Brasileira em 1999;</p>
+</div>
 
 <br>
-<div class="card5">
-    <table class="infobox vcard vevent" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
+<div class="card9">
+    <table class="infogremio" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
     <tr style="vertical-align: top;">
         <td></td>
     </tr>
@@ -110,7 +110,6 @@ include_once 'navbar.php';
 <tr style="vertical-align: top; color: white;">
 </td></tr>
 </table>
-
 
 </div>
 

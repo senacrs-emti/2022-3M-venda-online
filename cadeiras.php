@@ -1,9 +1,5 @@
 <?php include 'compratopo.php';  ?>
 
-  <head>
-    <link rel="stylesheet" href="cadeiras.css" />
-  </head>
-  <body>
     <div class="movie-container">
       <label> Selecione um Assento:</label>
       <select id="movie">
