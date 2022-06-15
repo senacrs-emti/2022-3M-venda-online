@@ -10,6 +10,10 @@ body {
     background-color: rgb(52, 58, 64);
 }
 
+.col {
+    background-color: rgb(52, 58, 64);
+}
+
 .button {
     --color: #000000;
     padding: 0.8em 1.7em;
@@ -302,9 +306,8 @@ footer {
 
 p {
     color: white;
-    text-align: center;
     font-size: 15px;
-    ;
+    
 }
 
 .logo {
@@ -343,19 +346,21 @@ p {
     position: relative;
 }
 
-.card9 {
+.card {
     background-color: black;
     border-radius: 20px;
-    float: left;
-    height: 495px;
-    width: 350px;
+    width: 450px;
+    margin: 0 auto;
+    
 }
 #textos{
     float: right;
 }
 
 .card-img-top {
-    border-radius: 15px;
+    border-radius: 20px;
+    justify-content: center;
+
 }
 
 h2{
@@ -456,32 +461,38 @@ h6{
   }
   
   #textocinco p {
-    text-align: justify;
       margin-left: 330px;
       margin-right: 330px;
       margin-top: 20px;
       position: relative;
       right: 150px;
       margin-bottom: 50px;
+      top: 25px
   }
   
   #gremio h1 {
-      text-align: center;
+      text-align: start;
       text-decoration: underline;
       color: rgb(63, 159, 222);
       margin-bottom: 20px;
-      top: 60px;
-      
-      
+      top: 20px;
+      position: relative;
+      left: 180px;
   }
   
-  .infobox {
+  .infogremio {
       padding: 0.2em;
       float: right;
       clear: right;
       margin-bottom: 20px;
       margin-right: 40px;
-      left: 20px;
+      right: 5px;
+      bottom: 10px;
+      top: 200px;
+      position:absolute;
+      border: 3px solid rgb(63, 159, 222);
+      border-spacing: 3px;
+
   }
 
   .table-bordered {
@@ -493,7 +504,7 @@ h6{
   #mundiais {
     margin-left: 100px;
     text-align: center;
-    width: 1149px;
+    width: 1186px;
   }
   
 
@@ -508,7 +519,5 @@ h6{
   }
 
 
-#gaucho {
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
+

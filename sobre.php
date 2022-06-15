@@ -3,7 +3,12 @@ include_once 'navbar.php';
 ?>
 
 
-<h2>Sobre</h2>
+<h2><b>Sobre</b></h2>
+<div id="listas">
+<a href="index.php">Início</a>
+/
+<a href="sobre.php">Sobre</a>
+</div>
 
 <div id="gremio">
     <h1>Grêmio Foot-Ball Porto Alegrense</h1>
@@ -15,28 +20,10 @@ include_once 'navbar.php';
 </div>
 
 
-<div id="textos">
-<h5>Títulos Internacionais</h5>
+
 
 <br>
 
-<p>- Mundial Interclubes 1983;</p>
-<p>- Copa Libertadores da América em 1983, 1995 e 2017;</p>
-<p>- Recopa Sul-Americana em 1996 e 2018;</p>
-
-<br>
-
-<h6>Títulos Nacionais</h6>
-
-<p>- Campeão Brasileiro em 1981 e 1996;</p>
-<p>- Supercampeão do Brasil em 1990;</p>
-<p>- Campeão da Copa do Brasil em 1989, 1994, 1997, 2001 e 2016;</p>
-<p>- Campeão Brasileiro da série B em 2005;</p>
-<p>- Campeão da Copa Sul-Brasileira em 1999;</p>
-</div>
-
-<br>
-<div class="card9">
     <table class="infogremio" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em">
     <tr style="vertical-align: top;">
         <td></td>
@@ -112,11 +99,6 @@ include_once 'navbar.php';
 </table>
 </div>
 </br> 
-<div id="gremio">
-<h1>Grêmio Foot-Ball Porto Alegrense</h1>
-</div>
-<div id="textocinco">
-<p>O Grêmio Foot-Ball Porto Alegrense é um clube de futebol brasileiro da cidade de Porto Alegre, no Rio Grande do Sul, fundado em 15 de setembro de 1903 por Candido Dias da Silva. É considerado um dos maiores clubes do Brasil e da América do Sul. Suas cores são azul, preto e branco. O clube tem como alcunhas Imortal Tricolor, Tricolor dos Pampas, Tricolor Gaúcho, Rei de Copas e Clube de Todos. </p>
 
 </div>
 
@@ -142,7 +124,7 @@ include_once 'navbar.php';
       <th scope="row"><img src="imagens/mundial.png" height="75"> </th>
       <td>Copa Intercontinental</td>
       <td>1</td>
-      <td>1983 *</td>
+      <td>1983*</td>
         </div>
     </tr>
     
@@ -278,6 +260,7 @@ include_once 'navbar.php';
       <td>1</td>
       <td>1999</td>
         </div>
+</div>
     </tr>
     <div class="col-lg-10 m-b-10">
 
@@ -314,31 +297,36 @@ include_once 'navbar.php';
   <tbody>
     <tr>
         <div id="tabela">
-      <th scope="row"><img src="imagens/brasileiro.png" height="75"> </th>
+      <th scope="row"><img src="imagens/gauchao.png" height="115"> </th>
       <td>Campeonato Gaúcho</td>
       <td>41</td>
-      <div id="gaucho">
-      <td>1921*, 1922, 1926*, 1931*, 1932*, 1946*, 1949*, 1956*, 1957, 1958, 1959*, 1960*, 1962, 1963, 1964, 1965*, 1966, 1967, 1968, 1977, 1979, 1980, 1985, 1986, 1987, 1988, 1989, 1990, 1993, 1995, 1996, 1999, 2001, 2006, 2007, 2010, 2018, 2019*, 2020, 2021 e 2022</td>
-        </div>
+      <td> 1921*, 1922, 1926*, 1931*, 1932*, 1946*, 1949*, 1956*, 1957,
+      1958, 1959*, 1960*, 1962, 1963, 1964, 1965*, 1966, 1967, 1968
+      1977, 1979, 1980, 1985, 1986, 1987, 1988, 1989, 1990, 1993
+      1995, 1996, 1999, 2001, 2006, 2007, 2010, 2018, 2019*, 2020
+      2021 e 2022</td>
         </div>
     </tr>
     <tbody>
     <tr>
         <div id="tabela">
-      <th scope="row"><img src="imagens/cb.png" height="75"> </th>
-      <td>Copa do Brasil</td>
-      <td>3</td>
-      <td>1983, 1995 e 2017</td>
+      <th scope="row"><img src="imagens/fgf.png" height="75"> </th>
+      <td>Copa FGF</td>
+      <td>1</td>
+      <td>2006</td>
         </div>
     </tr>
     <tbody>
     <tr>
         <div id="tabela">
       <th scope="row"><img src="imagens/brasileiro.png" height="75"> </th>
-      <td>Campeonato Brasileiro</td>
-      <td>2</td>
-      <td>1981 e 1996</td>
+      <td>Recopa Gaúcha</td>
+      <td>3</td>
+      <td>2019*, 2021* e 2022*</td>
         </div>
     </tr>
+   
+
+
    
 
