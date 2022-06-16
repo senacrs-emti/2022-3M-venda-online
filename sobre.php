@@ -327,6 +327,8 @@ include_once 'navbar.php';
     </tr>
    
 
-
+<?php 
+include_once 'footer.php';
+?>
    
 
