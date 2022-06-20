@@ -1,4 +1,3 @@
-<!-- HTML usado para fazer a base do Formulário de Login/Cadastro de Usuário !-->
 
 
 <!DOCTYPE html>

@@ -25,13 +25,10 @@
       <li class="nav-item">
         <a class="nav-link" href="sobre.php">Sobre</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Para Empresa
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
-      </li>
+<li class="nav-item">
+          <a class="nav-link" href="cadeiras.php">Cadeiras</a>
+          </li>
+        </li>
       <li class="nav-item">
         <a class="nav-link" href="noticias.php">Notícias</a>
       </li>
