@@ -484,11 +484,10 @@ h6{
       padding: 0.2em;
       float: right;
       clear: right;
-      margin-bottom: 20px;
+      margin-bottom: 150px;
       margin-right: 40px;
       right: 5px;
-      bottom: 10px;
-      top: 200px;
+      top: 55px;
       position:absolute;
       border: 3px solid rgb(63, 159, 222);
       border-spacing: 3px;
@@ -502,9 +501,10 @@ h6{
   }
 
   #mundiais {
-    margin-left: 100px;
+    margin-left: 115px;
     text-align: center;
-    width: 1186px;
+    width: 802px;
+    justify-items: center;
   }
   
 
@@ -519,5 +519,30 @@ h6{
   }
 
 
+.titulos {
+    width: 50px;
+}
 
+.competicoes {
+    width: 15px;
+}
 
+.imgens {
+    width: 100px;
+    vertical-align:sub;
+}
+
+.temporadas {
+    width: 80px;
+}
+
+#gaucho table {
+    color: white;
+    position: relative;
+    top: 25px;
+    vertical-align: middle;
+}
+
+.img anos {
+    bottom: 10px;
+}
