@@ -90,6 +90,15 @@
 
 </div>    
 <script src="compra.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    swal({
+  title: "Compra feita!",
+  text: "Seus dados foram surrupiados!",
+  icon: "success",
+});
+</script>
+
 </body>
 
 <?php include 'footer.php'; ?> 

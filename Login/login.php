@@ -1,13 +1,12 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Teste</title>
+	<title>Login</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="login.css">
+	<link rel="icon" href="images/gremio.png">
 </head>
 <body>
 	
@@ -21,10 +20,12 @@
 					<span id="innerText"></span>
 				</div>
 				<form method="POST" action="">
+
 					<label for="chk" aria-hidden="true">Cadastrar</label>
 					<input type="text" id="NomeDeUsuario" name="NomeDeUsuario" placeholder="Nome de Usuário" required>
 					<input type="Email" id="Email" name="Email" placeholder="Email" required>
-					<input type="password" id="Senha" name="Senha" placeholder="Senha" required>
+					<input type="password" id="Senha" name="Senha" placeholder="Senha"  required>
+					<input type="file" id="foto" accept="image/*"	name="foto" placeholder="foto" required>
 					<button id="btCadastro">Cadastro</button>
 				</form>
 			</div>

@@ -15,7 +15,7 @@ body {
   background: linear-gradient(to bottom, #000000, #0d80bf, #24243e);
 }
 .main {
-  width: 350px;
+  width: 500px;
   height: 500px;
   background: rgb(0, 13, 255);
   background-image: url(images/gremio.jpg);
@@ -30,6 +30,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  margin-bottom: 70px;
 }
 label {
   color: #fff;
@@ -41,17 +42,23 @@ label {
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+
+.foto label {
+  color: rgb(231, 0, 0);
+}
+
 input {
   width: 60%;
   background: #e0dede;
   justify-content: center;
   display: flex;
   margin: 20px auto !important;
-  padding: 10px !important;
+  padding: 0.3em ;
   border: none;
   outline: none;
   border-radius: 5px;
 }
+
 button {
   width: 60%;
   height: 40px;

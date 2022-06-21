@@ -131,13 +131,14 @@ body {
    }
 
    .navbar {
-        padding: 0.8rem 1.6rem !important;
+        padding: 0.8rem 1.6rem;
         z-index: 1000;
+        margin-top: 16.5rem;
    }
 
    .navbar-brand {
-    margin-right: 1.6rem !important;
-    font-size: 2rem !important;
+    margin-right: 1.6rem ;
+    font-size: 2rem ;
     width: 150px;
    }
 
