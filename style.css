@@ -6,7 +6,6 @@
 }
 
 
-
 body {
     font-size: 1.6rem;
     background-color: rgb(52, 58, 64);
@@ -516,8 +515,8 @@ h6{
 
   .table td {
     color: white;
-    position: relative;
-    top: 25px;
+    top: 10px;
+    bottom: 50px;
   }
 
 
@@ -531,7 +530,6 @@ h6{
 
 .imgens {
     width: 100px;
-    vertical-align:sub;
 }
 
 .temporadas {
@@ -545,6 +543,3 @@ h6{
     vertical-align: middle;
 }
 
-.img anos {
-    bottom: 10px;
-}

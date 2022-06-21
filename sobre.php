@@ -309,7 +309,12 @@ include_once 'navbar.php';
                     <th class="imgens" scope="row"><img src="imagens/gauchao.png" height="115"> </th>
                       <td>Campeonato Gaúcho</td>
                       <td>41</td>
-                      <td><img src="imagens/anos.png" height="200" width="180"></td>
+                      <div id="anos">
+                      <td> 1921*, 1922, 1926*, 1931*, 1932*, 1946*, 1949*, 1956*, 1957, 1958, 1959*, 
+                        1960*, 1962, 1963, 1964, 1965*, 1966, 1967, 1968, 1977, 1979, 1980, 1985, 1986,
+                      1987, 1988, 1989, 1990, 1993, 1995, 1996, 1999, 2001, 2006, 2007, 2010, 2018, 2019*,
+                    2020, 2021 e 2022 </td>
+                    </div>
                     </div>
                     </div>
                     </div>
