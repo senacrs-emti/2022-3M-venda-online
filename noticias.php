@@ -1,6 +1,6 @@
 <?php 
 
-include_once 'navbar.php';
+include_once './includes/navbar.php';
 
 ?>
 
@@ -116,6 +116,6 @@ include_once 'navbar.php';
 
 <?php 
 
-include_once 'footer.php';
+include_once './includes/footer.php';
 
 ?>

@@ -26,24 +26,14 @@
       <li class="nav-item">
         <a class="nav-link" href="sobre.php">Sobre</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Para Empresa
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
-          <a class="dropdown-item" href="camarotes.php">Camarotes</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="marca.php">Sua marca na Arena</a>
-        </div>
-      </li>
+<li class="nav-item">
+          <a class="nav-link" href="cadeiras.php">Cadeiras</a>
+          </li>
+        </li>
       <li class="nav-item">
         <a class="nav-link" href="noticias.php">Notícias</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-      </form>
     <form class="form-inline my-2 my-lg-0" action="Login/login.php">
     <button class="button2" type="submit" href="login.php">👤 Entrar</button>
     </form>
