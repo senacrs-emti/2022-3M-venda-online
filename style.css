@@ -359,9 +359,28 @@ h2 {
   color: rgb(63, 159, 222);
   margin-left: 110px;
   margin-top: 30px;
-  margin-bottom: 20px;
   font-size: 30px;
 }
+
+.sobre {
+  color: rgb(63, 159, 222);
+  margin-left: 110px;
+  margin-top: 30px;
+  font-size: 30px;
+  right: 185px;
+  position: relative;
+}
+
+#listas2 a {
+  color: #a9a9a9;
+
+}
+
+#listas2 {
+  margin-left: 38px;
+  color: #a9a9a9;
+}
+
 
 section.section-1 div.text-container h4 {
   margin-top: 70px;
@@ -397,7 +416,32 @@ h6 {
 #textoum h2 {
   color: white;
   margin-top: 100px;
-  text-align: center;
+  text-align: start;
+}
+
+#textnot3 h2 {
+  color: white;
+  margin-top: 100px;
+  margin-right: 13px;
+  position: relative;
+  left: 40px;
+}
+
+#textnot4 h2 {
+  color: white;
+  margin-top: 100px;
+  margin-right: 13px;
+  position: relative;
+  right: 15px;
+}
+
+#textnot5 h2 {
+  color: white;
+  margin-top: 100px;
+  margin-right: 13px;
+  position: relative;
+  text-align:center;
+  right: 50px;
 }
 
 #textodois h3 {
@@ -407,6 +451,8 @@ h6 {
 
 #textotres p {
   color: #808080;
+  position: relative;
+  text-align: center;
 }
 
 #imagemum img {
@@ -451,13 +497,11 @@ h6 {
 }
 
 #textocinco p {
-  margin-left: 330px;
-  margin-right: 330px;
   margin-top: 20px;
   position: relative;
-  right: 150px;
   margin-bottom: 50px;
   top: 25px;
+  
 }
 
 #gremio h1 {
@@ -477,6 +521,7 @@ h6 {
   margin-bottom: 150px;
   margin-right: 40px;
   right: 5px;
+  left: 50px;
   top: 55px;
   position: absolute;
   border: 3px solid rgb(63, 159, 222);
@@ -526,4 +571,18 @@ h6 {
   position: relative;
   top: 25px;
   vertical-align: middle;
+}
+
+.cardsnoticias {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cardsnoticias2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
 }

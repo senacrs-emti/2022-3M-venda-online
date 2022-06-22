@@ -14,6 +14,7 @@ include_once 'navbar.php';
 <div id="imagemum">
 <img src="imagens/noticia2.jpg">
 </div>
+</div>
 
 
 <div id="textoquatro">
@@ -35,6 +36,7 @@ include_once 'navbar.php';
 
 <p>Criado no início deste ano, por meio de uma parceria com a Associação de Gerenciamento de Projetos Sociais (AGPS), o projeto visa reunir crianças entre 7 e 15 anos, às terças e quintas-feiras, em horários inverso ao da escola regular, para aulas de Jiu-Jitsu. As atividades, que terão como sede o hall da Tribuna de Honra do Conselho Deliberativo da Arena, seguirão até dezembro de 2022, e serão ministradas por sete professores especializados na arte. </p> 
 
+</div>
 
 <?php 
 include_once 'footer.php';

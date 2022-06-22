@@ -5,8 +5,10 @@ include_once 'navbar.php';
 <div class="container">
   <div class="row">
     <div class="col-8">
+<div class="sobre">
 <h2><b>Sobre</b></h2>
-<div id="listas">
+</div>
+<div id="listas2">
 <a href="index.php">Início</a>
 /
 <a href="sobre.php">Sobre</a>
