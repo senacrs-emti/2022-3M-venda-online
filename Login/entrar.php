@@ -18,7 +18,7 @@ $db = mysqli_select_db('script');
         die();
       }else{
         setcookie("Login",$Email);
-        header("Location:index.php");
+        header("Location:login.php");
       }
   }
 
