@@ -1,12 +1,14 @@
 <?php 
-include_once 'navbar.php';
+include_once './includes/navbar.php';
 ?>
 
 <div class="container">
   <div class="row">
     <div class="col-8">
+<div class="sobre">
 <h2><b>Sobre</b></h2>
-<div id="listas">
+</div>
+<div id="listas2">
 <a href="index.php">Início</a>
 /
 <a href="sobre.php">Sobre</a>
@@ -364,12 +366,14 @@ include_once 'navbar.php';
               </div>
             </div>
         </div>
-        
+        <div class="invicto">
+          <p>* Campeão Invicto</p>
+        </div>
     
    
 
 <?php 
-include_once 'footer.php';
+include_once './includes/footer.php';
 ?>
    
 

@@ -8,6 +8,9 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
+.navbar {
+  margin-top: 18.5rem;
+}
 
 .container-fluid{
   display: flex;
@@ -16,7 +19,7 @@
   padding:20px;
   padding-bottom: 20px;
   min-height: 100vh;
-  background: linear-gradient( to right, rgb(42, 67, 206), #0d80bf );
+  background: rgb(63, 159, 222);
 }
 
 .container-fluid form{

@@ -1,6 +1,6 @@
 
 <?php 
-include 'topo.php';
+include './includes/navbar.php';
 ?>
 
 <head>
@@ -94,7 +94,7 @@ include 'topo.php';
 
 <?php 
 
-include_once 'footer.php';
+include_once './includes/footer.php';
 
 ?>
 

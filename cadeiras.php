@@ -1,4 +1,4 @@
-<?php include 'compratopo.php';  ?>
+<?php include 'compratopo.php'  ?>
 
     <div class="movie-container">
       <label> Selecione um Assento:</label>
@@ -106,4 +106,4 @@
     <script src="cadeiras.js"></script>
   </body>
 
-  <?php include 'footer.php' ?>
+  <?php include './includes/footer.php' ?>
