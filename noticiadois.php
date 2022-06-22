@@ -1,5 +1,5 @@
 <?php 
-include_once 'navbar.php';
+include_once './includes/navbar.php';
 ?>
 
 <div id="textoum">
@@ -39,5 +39,5 @@ include_once 'navbar.php';
 </div>
 
 <?php 
-include_once 'footer.php';
+include_once './includes/footer.php';
 ?>

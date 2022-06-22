@@ -1,5 +1,5 @@
 <?php 
-include_once 'navbar.php';
+include_once './includes/navbar.php';
 ?>
 
 <div id="textnot3">
@@ -34,5 +34,5 @@ include_once 'navbar.php';
 
 
 <?php 
-include_once 'footer.php';
+include_once './includes/footer.php';
 ?>
