@@ -1,4 +1,7 @@
 /* Estilização do Corpo e Botões do Form de Login/Cadastro */
+:root {
+  font-size: 62.5%;
+}
 
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
@@ -14,27 +17,30 @@ body {
   font-family: 'Jost', sans-serif;
   background: linear-gradient(to bottom, #000000, #0d80bf, #24243e);
 }
+
 .main {
-  width: 500px;
-  height: 500px;
+  width: 50rem;
+  height: 50rem;
   background: rgb(0, 13, 255);
   background-image: url(images/gremio.jpg);
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 1rem;
   box-shadow: 5px 20px 50px #000;
 }
 #chk {
   display: none;
 }
+
 .signup {
   position: relative;
   width: 100%;
   height: 100%;
   margin-bottom: 70px;
 }
+
 label {
   color: #fff;
-  font-size: 2.3em;
+  font-size: 3.2rem;
   justify-content: center;
   display: flex;
   margin: 60px;
@@ -47,13 +53,18 @@ label {
   color: rgb(231, 0, 0);
 }
 
+input,
+button {
+  font-size: 1.6rem;
+}
+
 input {
   width: 60%;
   background: #e0dede;
   justify-content: center;
   display: flex;
-  margin: 20px auto !important;
-  padding: 0.3em ;
+  margin: 2rem auto !important;
+  padding: 1rem;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -61,15 +72,14 @@ input {
 
 button {
   width: 60%;
-  height: 40px;
-  margin: 10px auto;
+  height: 4rem;
+  margin: 1rem auto;
   justify-content: center;
   display: block;
   color: #fff;
   background: #0d80bf;
-  font-size: 1em;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 2rem;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -80,7 +90,7 @@ button:hover {
   background: #47aae0;
 }
 .login {
-  height: 460px;
+  height: 46rem;
   background: #eee;
   border-radius: 60% / 10%;
   transform: translateY(-180px);
