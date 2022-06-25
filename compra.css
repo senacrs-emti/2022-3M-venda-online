@@ -8,9 +8,6 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
-.navbar {
-  margin-top: 18.5rem;
-}
 
 .container-fluid{
   display: flex;
