@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+
+
+if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
+    header("location: ../login.php");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +45,7 @@
                 <h1 class="heading">Trabalho</h1>
                 <div class="primary">
                     <h1>Email</h1>
-                    <p>emaildoususario@gmail.com</p>
+                    <p><?php echo htmlspecialchars($_SESSION["Email"]); ?></p>
                 </div>
 
                 <div class="secondary">

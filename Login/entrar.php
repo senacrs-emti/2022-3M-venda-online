@@ -34,14 +34,50 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   
   if (empty($email_err) && empty($password_err)) {
-    $sql = "SELECT "
-  } else {
-    # code...
+    $sql = "SELECT IDUsuario, NomeDeUsuario, Email, Senha FROM users WHERE NomeDeUsuario = ?";
+    
+    if($stmt = mysqli_prepare($conn, $sql)){
+
+      mysqli_smtm_bind_param($stmt, "s", $param_email);
+
+      $param_email = $email;
+
+      if (mysqli_stmt_execute($stmt)) {
+        
+        mysqli_stmt_store_result($stmt);
+        
+        if (mysqli_stmt_num_rows($stmt) == 1) {
+          
+          mysqli_stmt_bind_result($stmt, $id, $email, $hashed_password);
+
+          if (mysqli_stmt_fetch($stmt)) {
+            if (password_verify($password, hashed_password)) {
+              
+              session_start();
+
+              $_SESSION["loggedin"] = true;
+              $_SESSION["IDUsuario"] = $id;
+              $_SESSION["Email"] = $email;
+
+              header("location: Login\Perfil\index.php");
+            } else {
+
+              $login_err = "Usuário ou senha invalida";
+            }
+          }
+        } else {
+          $login_err = "Usuário ou senha invalida";
+        }
+      } else {
+        echo "Ops! Algo deu errado, tente novamente mais tarde.";
+      }
+
+      mysqli_stmt_close($stmt);
+    }
   }
   
-
+  mysqli_close($conn);
 }
-
 
 
 
