@@ -11,8 +11,8 @@ if(isset($_GET['id'])){
 
 	$id = validate($_GET['id']);
 
-	$sql = "DELETE FROM crud
-	        WHERE id=$id";
+	$sql = "DELETE FROM logindeusuario
+	        WHERE IDUsuario=$id";
    $result = mysqli_query($conn, $sql);
    if ($result) {
    	  header("Location: ../read.php?success=Deletado com Sucesso!");

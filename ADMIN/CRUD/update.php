@@ -1,9 +1,9 @@
 <?php 
-
 include "db_conn.php";
-$sql = "SELECT * FROM logindeusuario ORDER BY IDUsuario DESC";
+$id = $_GET['id'];
+$sql = "SELECT * FROM logindeusuario WHERE IDUsuario = {$id}";
 $result = mysqli_query($conn, $sql);
-
+$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 
 ?>
 <!DOCTYPE html>
@@ -30,7 +30,7 @@ $result = mysqli_query($conn, $sql);
 		           class="form-control" 
 		           id="Nome" 
 		           name="Nome" 
-		           value="<?=$row['Nome'] ?>" >
+		           value="<?php echo $row['Nome'] ?>" >
 		   </div>
 
 		   <div class="form-group">

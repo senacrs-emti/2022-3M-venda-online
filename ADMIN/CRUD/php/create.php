@@ -9,19 +9,19 @@ if (isset($_POST['create'])) {
         return $data;
 	}
 
-	$Nome = validate($_POST['Nome']);
+	$NomeDeUsuario = validate($_POST['Nome']);
 	$Email = validate($_POST['Email']);
 
-	$user_data = 'Nome='.$Nome. '&Email='.$Email;
+	$user_data = 'Nome='.$NomeDeUsuario. '&Email='.$Email;
 
-	if (empty($Nome)) {
+	if (empty($NomeDeUsuario)) {
 		header("Location: ../index.php?error=Nome é necessário&$user_data");
 	}else if (empty($Email)) {
 		header("Location: ../index.php?error=Email é necessário&$user_data");
 	}else {
 
-       $sql = "INSERT INTO crud(Nome, Email) 
-               VALUES('$Nome', '$Email')";
+       $sql = "INSERT INTO logindeusuario(NomeDeUsuario, Email) 
+               VALUES('$NomeDeUsuario', '$Email')";
        $result = mysqli_query($conn, $sql);
        if ($result) {
        	  header("Location: ../read.php?success=Criado com Sucesso!");
