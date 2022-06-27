@@ -1,4 +1,11 @@
-<?php include 'php/update.php'; ?>
+<?php 
+
+include "db_conn.php";
+$sql = "SELECT * FROM logindeusuario ORDER BY IDUsuario DESC";
+$result = mysqli_query($conn, $sql);
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>

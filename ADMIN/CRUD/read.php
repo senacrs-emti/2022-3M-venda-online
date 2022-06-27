@@ -1,4 +1,11 @@
-<?php include "php/read.php"; ?>
+<?php 
+
+include "db_conn.php";
+$sql = "SELECT * FROM logindeusuario ORDER BY IDUsuario DESC";
+$result = mysqli_query($conn, $sql);
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,13 +39,13 @@
 			  	   $i++;
 			  	 ?>
 			    <tr>
-			      <th scope="row"><?=$i?></th>
-			      <td><?=$rows['Nome']?></td>
+			      <th scope="row"><?php echo $i?></th>
+			      <td><?=$rows['NomeDeUsuario']?></td>
 			      <td><?php echo $rows['Email']; ?></td>
-			      <td><a href="update.php?id=<?=$rows['id']?>" 
+			      <td><a href="update.php?id=<?php echo $rows['IDUsuario']?>" 
 			      	     class="btn btn-success">Atualizar</a>
 
-			      	  <a href="php/delete.php?id=<?=$rows['id']?>" 
+			      	  <a href="php/delete.php?id=<?php echo $rows['IDUsuario']?>" 
 			      	     class="btn btn-danger">Deletar</a>
 			      </td>
 			    </tr>
