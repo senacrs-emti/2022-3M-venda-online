@@ -55,10 +55,10 @@ $(document).ready(function () {
         document.getElementById('Email').style.borderBottom = "0.2rem solid #07d582"
         document.getElementById('Senha').style.borderBottom = "0.2rem solid #07d582"        
 
-        setTimeout(function (){
-          popupUser.style.display = 'none';
-        }, 2000)
-      } else {
+      //   setTimeout(function (){
+      //     popupUser.style.display = 'none';
+      //   }, 2000)
+      // } else {
         
       }
     }
