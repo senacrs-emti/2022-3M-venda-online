@@ -28,55 +28,66 @@ function getCookie(cname) {
   }
   return "";
 } 
+// console.log(cookieResposta);
 
-$(document).ready(function () {
-  console.log(cookieResposta)
-  let cookieRespostaSlice = getCookie('cookieResposta')
-  console.log(cookieResposta)
-  var cookieResposta = cookieRespostaSlice.slice(';')[0]
-  // var cookieResposta = '1'
-  console.log(cookieResposta)
+// var cookieResposta = '1'
+// console.log(cookieResposta);
 
+function msg() {
+  let cookieRespostaSlice = getCookie('cookieResposta');
+
+  var cookieResposta = cookieRespostaSlice.slice(';')[0];
   if (cookieResposta == '1') {
-    popupUser.style.display = 'flex'
-    innerText.innerHTML = 'Usuário já existente.'
-    document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #ff0000"
+    popupUser.style.display = 'flex';
+    innerText.innerHTML = 'Usuário já existente.';
+    document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #ff0000";
+    popupUser.style.backgroundColor = '#ff0038';
+    document.getElementById('Email').style.borderBottom = "none";
+    document.getElementById('Senha').style.borderBottom = "none"; 
   } else {
     if (cookieResposta == '2') {
-      popupUser.style.display = 'flex'
-      innerText.innerHTML = 'Email já existente.'
-      document.getElementById('Email').style.borderBottom = "0.2rem solid #ff0000"
+      popupUser.style.display = 'flex';
+      innerText.innerHTML = 'Email já existente.';
+      document.getElementById('Email').style.borderBottom = "0.2rem solid #ff0000";
+      popupUser.style.backgroundColor = '#ff0038';
+      document.getElementById('NomeDeUsuario').style.borderBottom = "none";
+      document.getElementById('Senha').style.borderBottom = "none"; 
     } else {
       if (cookieResposta == '3') {
-        popupUser.style.display = 'flex'
-        innerText.innerHTML = 'Cadastrado com sucesso.'
-        popupUser.style.backgroundColor = '#07f582'
-        document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #07d582"
-        document.getElementById('Email').style.borderBottom = "0.2rem solid #07d582"
-        document.getElementById('Senha').style.borderBottom = "0.2rem solid #07d582"        
+        popupUser.style.display = 'flex';
+        innerText.innerHTML = 'Cadastrado com sucesso.';
+        popupUser.style.backgroundColor = '#07f582';
+        document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #07d582";
+        document.getElementById('Email').style.borderBottom = "0.2rem solid #07d582";
+        document.getElementById('Senha').style.borderBottom = "0.2rem solid #07d582";       
 
-      //   setTimeout(function (){
-      //     popupUser.style.display = 'none';
-      //   }, 2000)
-      // } else {
-        
+        console.log(cookieResposta)
+        setTimeout(function() {
+          popupUser.style.display = 'none'
+        },4000)
       }
     }
   }
+}
 
-  if (cookieResposta == '4') {
-    popupUser.style.display = 'flex'
-    innerText.innerHTML = 'Usuário incorreto.'
-    document.getElementById('EmailL').style.borderBottom = "0.2rem solid #ff0000"
-  } else {
-    if (cookieResposta == '5') {
-      popupUser.style.display = 'flex'
-      innerText.innerHTML = 'Email incorreto.'
-      document.getElementById('SenhaL').style.borderBottom = "0.2rem solid #ff0000"
-    } else {
+$(document).ready(function () {
+
+
+
+
+  // if (cookieResposta == '4') {
+  //   popupUser.style.display = 'flex'
+  //   innerText.innerHTML = 'Usuário incorreto.'
+  //   document.getElementById('EmailL').style.borderBottom = "0.2rem solid #ff0000"
+  // } else {
+  //   if (cookieResposta == '5') {
+  //     popupUser.style.display = 'flex'
+  //     innerText.innerHTML = 'Email incorreto.'
+  //     document.getElementById('SenhaL').style.borderBottom = "0.2rem solid #ff0000"
+  //   } else {
    
-    }
-  }
+  //   }
+  // }
 
   $('#btCadastro').click(function () {
     var Email = $('#Email').val();
@@ -90,40 +101,45 @@ $(document).ready(function () {
       dataType: 'html'
     })
       .done(function (resposta) {
-        console.log(resposta)
-        setCookie('cookieResposta', resposta, 1)
+        console.log(resposta);
+        setCookie('cookieResposta', resposta, 1);
+        msg();
+
       })
       .fail(function (jqXHR, textStatus) {
-        console.log('Request failed: ' + textStatus)
+        console.log('Request failed: ' + textStatus);
       })
       .always(function () {
-        console.log('completou')
+        console.log('completou');
+        msg();
+
+        
       })
   })
-  console.log(cookieResposta)
+  // console.log(cookieResposta)
 })
 
-$('#login').click(function () {
-  var EmailL = $('#EmailL').val();
-  var SenhaL = $('#SenhaL').val();
+// $('#login').click(function () {
+//   var EmailL = $('#EmailL').val();
+//   var SenhaL = $('#SenhaL').val();
   
-  $.ajax({
-    url: './entrar.php',
-    type: 'POST',
-    data: 'Email='+EmailL+'&Senha='+SenhaL,
-    dataType: 'html'
-  })
-  .done(function (resposta) {
-    console.log(resposta)
-    setCookie('cookieResposta', resposta, 1)    
-  })
-  .fail(function (jqXHR, textStatus) {
-    console.log('Request failed: ' + textStatus)
-  })
-  .always(function (){
-    console.log('completou')
-  })
-})
+//   $.ajax({
+//     url: './entrar.php',
+//     type: 'POST',
+//     data: 'Email='+EmailL+'&Senha='+SenhaL,
+//     dataType: 'html'
+//   })
+//   .done(function (resposta) {
+//     console.log(resposta)
+//     setCookie('cookieResposta', resposta, 1)    
+//   })
+//   .fail(function (jqXHR, textStatus) {
+//     console.log('Request failed: ' + textStatus)
+//   })
+//   .always(function (){
+//     console.log('completou')
+//   })
+// })
 
 
 function transformPopUp() {

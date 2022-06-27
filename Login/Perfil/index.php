@@ -24,27 +24,26 @@
 
         <section class="userProfile card">
             <div class="profile">
-                <figure><img src="gremio.png" alt="foto de perfil" width="250px" height="250px"></figure>
+                <figure><img src="images\anonimo.jpg" alt="foto de perfil" width="250px" height="250px"></figure>
             </div>
         </section>
         <section class="work_skills card">
             <div class="work">
                 <h1 class="heading">Trabalho</h1>
                 <div class="primary">
-                    <h1>Nome da empresa</h1>
-                    <span>Principal</span>
-                    <p>170 William Street <br> New York, NY 10038-212-315-51</p>
+                    <h1>Email</h1>
+                    <p>emaildoususario@gmail.com</p>
                 </div>
 
                 <div class="secondary">
-                    <h1>Museu <br> Metropolitano</h1>
-                    <span>Secundário</span>
-                    <p>S34 E 65th Street <br> New York, NY 10651-78 156-187-60</p>
+                    <h1>Telefone</h1>
+                    
+                    <p>51 99999-8888</p>
                 </div>
             </div>
 
             <!-- ===== ===== Skills Contaienr ===== ===== -->
-            <div class="skills">
+            <!-- <div class="skills">
                 <h1 class="heading">Skills</h1>
                 <ul>
                     <li style="--i:0">Android</li>
@@ -52,7 +51,7 @@
                     <li style="--i:2">UI/UX</li>
                     <li style="--i:3">Edição de video</li>
                 </ul>
-            </div>
+            </div> -->
         </section>
 
 
@@ -60,41 +59,6 @@
         <section class="userDetails card">
             <div class="userName">
                 <h1 class="name">Seu nome</h1>
-                <div class="map">
-                    <i class="ri-map-pin-fill ri"></i>
-                    <span>New York, NY</span>
-                </div>
-                <p>Designer de produtos</p>
-            </div>
-
-            <div class="rank">
-                <h1 class="heading">Seu ranking</h1>
-                <span>8,6</span>
-                <div class="rating">
-                    <i class="ri-star-fill rate"></i>
-                    <i class="ri-star-fill rate"></i>
-                    <i class="ri-star-fill rate"></i>
-                    <i class="ri-star-fill rate"></i>
-                    <i class="ri-star-fill rate underrate"></i>
-                </div>
-            </div>
-
-            <div class="btns">
-                <ul>
-                    <li class="sendMsg">
-                        <i class="ri-chat-4-fill ri"></i>
-                        <a href="#">Enviar mensagem</a>
-                    </li>
-
-                    <li class="sendMsg active">
-                        <i class="ri-check-fill ri"></i>
-                        <a href="#">Contatos</a>
-                    </li>
-
-                    <li class="sendMsg">
-                        <a href="#">Reportar Usuário</a>
-                    </li>
-                </ul>
             </div>
         </section>
 
@@ -103,54 +67,23 @@
         <section class="timeline_about card">
             <div class="tabs">
                 <ul>
-                    <li class="timeline">
-                        <i class="ri-eye-fill ri"></i>
-                        <span>Linha do tempo</span>
-                    </li>
-
                     <li class="about active">
                         <i class="ri-user-3-fill ri"></i>
-                        <span>Sobre</span>
+                        <span>Meus Ingressos</span>
                     </li>
                 </ul>
             </div>
 
             <div class="contact_Info">
-                <h1 class="heading">Informações de contato</h1>
+                <h1 class="heading">Ingressos</h1>
                 <ul>
-                    <li class="phone">
-                        <h1 class="label">Telefone:</h1>
-                        <span class="info">+11 234 567 890</span>
-                    </li>
-
-                    <li class="address">
-                        <h1 class="label">Endereço:</h1>
-                        <span class="info">S34 E 65th Street <br> New York, NY 10651-78 156-187-60</span>
-                    </li>
-
-                    <li class="email">
-                        <h1 class="label">E-mail:</h1>
-                        <span class="info">hello@rsmarquetech.com</span>
-                    </li>
-
-                    <li class="site">
-                        <h1 class="label">Site:</h1>
-                        <span class="info">www.rsmarquetech.com</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="basic_info">
-                <h1 class="heading">Informações básicas</h1>
-                <ul>
-                    <li class="birthday">
-                        <h1 class="label">Aniversário:</h1>
-                        <span class="info">Dez 25, 2000</span>
-                    </li>
-
-                    <li class="sex">
-                        <h1 class="label">Gênero:</h1>
-                        <span class="info">Masculino</span>
+                    <li class="ticketContainerLi">
+                        <div class="ticketInfoContainer">
+                        <h1 class="label">Grêmio x Real Madrid</h1><span>25/07</span>
+                        </div>
+                        <div class="ticketInfoContainer">
+                            <span class="ticketInfo">Camarote: 3</span><span class="ticketInfo">21h30</span>
+                        </div>
                     </li>
                 </ul>
             </div>

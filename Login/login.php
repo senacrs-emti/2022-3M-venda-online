@@ -24,7 +24,7 @@
         <span class="close-button material-symbols-outlined" onclick="closePopupUser()">close</span>
         <span id="innerText"></span>
       </div>
-      <form method="POST" action="">
+      <form method="POST" action="javascript:void(0);">
 
         <label for="chk" aria-hidden="true">Cadastrar</label>
         <input type="text" id="NomeDeUsuario" name="NomeDeUsuario" placeholder="Nome de Usuário" required>
