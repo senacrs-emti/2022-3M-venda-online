@@ -131,16 +131,8 @@ body {
    }
 
    .navbar {
-    
-        padding: 0.8rem 1.6rem;
-        z-index: 1000;
-        margin-top: 9rem;
-   }
-
-   .navbar-brand {
-    margin-right: 1.6rem ;
-    font-size: 2rem ;
-    width: 150px;
+       top: 40px;
+       position: fixed;
    }
 
    section.section-1 {
@@ -304,7 +296,6 @@ footer {
 
 p {
     color: white;
-    text-align: center;
     font-size: 15px;
     ;
 }

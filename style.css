@@ -137,6 +137,10 @@ section.section-1 div.img-container .section-img {
   width: 100%;
 }
 
+#dropdownMenuButton {
+  
+}
+
 .navbar {
   padding: 0.8rem 1.6rem !important;
   z-index: 1000;
@@ -337,9 +341,12 @@ p {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top:0;
 }
-
+#pgSobre{
+  margin-top: 100px;
+}
 .card {
   background-color: black;
   border-radius: 20px;

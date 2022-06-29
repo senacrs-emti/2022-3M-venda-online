@@ -2,7 +2,7 @@
 include_once './includes/navbar.php';
 ?>
 
-<div class="container">
+<div id="pgSobre" class="container">
   <div class="row">
     <div class="col-8">
 <div class="sobre">

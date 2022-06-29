@@ -28,7 +28,7 @@
 <li class="nav-item">
           <a class="nav-link" href="cadeiras.php">Cadeiras</a>
           </li>
-        </li>
+
       <li class="nav-item">
         <a class="nav-link" href="noticias.php">Notícias</a>
       </li>
@@ -64,7 +64,7 @@
       <div class="card">
         <img src="imagens/gremioxnovo.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <a class="ingressocompra" href="cadeiras.php">
+          <a class="ingressocompra" href="gremioxnovo.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
         </div>
@@ -74,7 +74,7 @@
     <div class="col">
       <div class="card">
         <img src="imagens/gremioxsampaio.png" class="card-img-top" alt="...">
-        <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
+        <div class="card-body">          <a class="ingressocompra" href="gremioxsamp.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
         </div>
@@ -91,7 +91,7 @@
     <div class="col">
       <div class="card">
         <img src="imagens/gremioelondrina.png" class="card-img-top" alt="...">
-        <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
+        <div class="card-body">          <a class="ingressocompra" href="gremioxlondrina.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
         </div>
@@ -101,7 +101,7 @@
     <div class="col">
       <div class="card">
         <img src="imagens/gremioxnautico.png" class="card-img-top" alt="...">
-        <div class="card-body">          <a class="ingressocompra" href="cadeiras.php">
+        <div class="card-body">          <a class="ingressocompra" href="gremioxnaut.php">
           <button type="button" class="btn btn-primary btn-lg btn-block">INGRESSOS</button>
         </a>
         </div>
