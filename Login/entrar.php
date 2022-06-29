@@ -9,8 +9,6 @@ session_start();
 // $Email = $_POST['Email'];
 // $Senha = md5($_POST['Senha']);
 
-$email = $password = "";
-
 $conn = mysqli_connect('localhost','root','');
 $db = mysqli_select_db($conn,'script');
 
@@ -19,75 +17,40 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
   exit;
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-// checar se email esta vazio
-  if (empty(trim($_POST["Email"]))) {
-    $email_err = "Por favor, digite um Email";
-  } else {
-    $email = trim($_POST["Email"]);
-  }
-// checar se senha esta vazia
-  if (empty(trim($_POST["Senha"]))) {
-    $password_err = "Por favor, digite uma senha";
-  } else {
-    $password = $_POST["Senha"];
-  }
-  
-  if (empty($email_err) && empty($password_err)) {
-    $sql = "SELECT IDUsuario, NomeDeUsuario, Email, Senha FROM users WHERE NomeDeUsuario = ?";
-    
-    if($stmt = mysqli_prepare($conn, $sql)){
+// Prepare our SQL, preparing the SQL statement will prevent SQL injection.
+if ($stmt = $conn->prepare('SELECT IDUsuario, Senha, NomeDeUsuario FROM logindeusuario WHERE Email = ?')) {
+	// Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s"
+	$stmt->bind_param('s', $_POST['Email']);
+	$stmt->execute();
+	// Store the result so we can check if the account exists in the database.
+	$stmt->store_result();
 
-      mysqli_smtm_bind_param($stmt, "s", $param_email);
-
-      $param_email = $email;
-
-      if (mysqli_stmt_execute($stmt)) {
-        
-        mysqli_stmt_store_result($stmt);
-        
-        if (mysqli_stmt_num_rows($stmt) == 1) {
-          
-          mysqli_stmt_bind_result($stmt, $id, $email, $hashed_password);
-
-          if (mysqli_stmt_fetch($stmt)) {
-            if (password_verify($password, hashed_password)) {
-              
-              session_start();
-
-              $_SESSION["loggedin"] = true;
-              $_SESSION["IDUsuario"] = $id;
-              $_SESSION["Email"] = $email;
-
-              header("location: Login\Perfil\index.php");
-            } else {
-
-              $login_err = "Usuário ou senha invalida";
-            }
-          }
-        } else {
-          $login_err = "Usuário ou senha invalida";
-        }
-      } else {
-        echo "Ops! Algo deu errado, tente novamente mais tarde.";
-      }
-
-      mysqli_stmt_close($stmt);
+  if ($stmt->num_rows > 0) {
+    $stmt->bind_result($id, $password, $username);
+    $stmt->fetch();
+    // Account exists, now we verify the password.
+    // Note: remember to use password_hash in your registration file to store the hashed passwords.
+    if (password_verify($_POST['Senha'], $password)) {
+      // Verification success! User has logged-in!
+      // Create sessions, so we know the user is logged in, they basically act like cookies but remember the data on the server.
+      session_regenerate_id();
+      $_SESSION['loggedin'] = true;
+      $_SESSION['name'] = $username;
+      $_SESSION['email'] = $_POST['Email'];
+      $_SESSION['id'] = $id;
+      echo 'Welcome ' . $_SESSION['name'] . '!';
+      header("location: Perfil\index.php");
+    } else {
+      // Incorrect password
+      echo 'Incorrect username and/or password!';
+      echo 'email: ' . $_POST['Email'] . '<br>password: ' . $_POST['Senha'];   
     }
+  } else {
+    // Incorrect username
+    echo 'Incorrect username and/or password!';
   }
-  
-  mysqli_close($conn);
+	$stmt->close();
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

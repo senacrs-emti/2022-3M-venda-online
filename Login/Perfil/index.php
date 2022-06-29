@@ -1,8 +1,11 @@
 <?php
 
+$email = $username = '';
+
 session_start();
 
-
+$email = $_SESSION['email'];
+$username = $_SESSION['name'];
 
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("location: ../login.php");
@@ -45,7 +48,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                 <h1 class="heading">Trabalho</h1>
                 <div class="primary">
                     <h1>Email</h1>
-                    <p><?php echo htmlspecialchars($_SESSION["Email"]); ?></p>
+                    <p><?php echo htmlspecialchars($email); ?></p>
                 </div>
 
                 <div class="secondary">
@@ -71,7 +74,8 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         <!-- ===== ===== User Details Sections ===== ===== -->
         <section class="userDetails card">
             <div class="userName">
-                <h1 class="name">Seu nome</h1>
+                <h1 class="name"><?php echo htmlspecialchars($username); ?></h1>
+                
             </div>
         </section>
 

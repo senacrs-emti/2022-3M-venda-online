@@ -1,11 +1,13 @@
 <?php
 /* Conexão com o DB para fazer o cadastro de Usuário */
 
+
 $NomeDeUsuario = $_POST['NomeDeUsuario'];
 $Email = $_POST['Email'];
-$Senha = MD5($_POST['Senha']);
+$Senha = password_hash($_POST['Senha'], PASSWORD_DEFAULT);
 $conn = mysqli_connect("localhost", "root", "");
-$dbname = "script";
+$dbname = "script";    
+
 
 $db = mysqli_select_db($conn, $dbname);
 
@@ -28,8 +30,6 @@ if (mysqli_num_rows($verifyUser) > 0) {
         exit("3");
     }    
 }
-
-
 
 ?>
 
