@@ -15,7 +15,7 @@ $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 </head>
 <body>
 	<div class="container">
-		<form action="php/update.php" 
+		<form action="php/update-usuario.php" 
 		      method="post">
             
 		   <h4 class="display-4 text-center">Atualizar</h4><hr><br>
@@ -26,25 +26,25 @@ $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 		   <?php } ?>
 		   <div class="form-group">
 		     <label for="Nome">Nome</label>
-		     <input type="Nome" 
+		     <input type="text" 
 		           class="form-control" 
 		           id="Nome" 
 		           name="Nome" 
-		           value="<?php echo $row['Nome'] ?>" >
+		           value="<?php echo $row['NomeDeUsuario'] ?>" >
 		   </div>
 
 		   <div class="form-group">
 		     <label for="Email">Email</label>
-		     <input type="Email" 
+		     <input type="mail" 
 		           class="form-control" 
 		           id="Email" 
 		           name="Email" 
-		           value="<?=$row['Email'] ?>" >
+		           value="<?php echo $row['Email'] ?>" >
 		   </div>
 		   <input type="text" 
 		          name="id"
-		          value="<?=$row['id']?>"
-		          hidden >
+		          value="<?php echo $row['IDUsuario']?>"
+		           >
 
 		   <button type="submit" 
 		           class="btn btn-primary"
