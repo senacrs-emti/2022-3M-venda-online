@@ -1,7 +1,5 @@
-/* ===== =====  Poppins Google Font  ===== =====  */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
-/* ===== =====>>  Universal Selector  <<===== =====  */
 * {
   padding: 0;
   margin: 0;
@@ -12,14 +10,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* ===== =====>>  Body Font Size  <<===== =====  */
 html {
   font-size: 10px;
 }
 
-/* ===== =====>> Css Variables  <<===== =====  */
 :root {
-  /* =====>>  Font Color  <<===== */
   --f1-color: #fff;
   --f2-color: #000;
   --f3-color: rgba(0, 0, 0, 0.8);
@@ -27,7 +22,6 @@ html {
   --f5-color: #0099cc;
   --f6-color: #88cee6;
 
-  /* =====>>  Background Color  <<===== */
   --bg1-color: #fff;
   --bg2-color: #000;
   --bg3-color: #33ccff;
@@ -42,7 +36,6 @@ html {
   );
   --C-lg-bg: linear-gradient(45deg, #ff3399, #ff9933);
 
-  /* ===== =====>>  Font Size  <<===== =====  */
   --xxxl-fs: 2.2rem;
   --xxl-fs: 1.8rem;
   --xl-fs: 1.6rem;
@@ -51,7 +44,6 @@ html {
   --s-fs: 1.1rem;
   --xs-fs: 1rem;
 
-  /* =====>>  Margin  <<===== */
   --m-2-5: 2.5rem;
   --m-1-8: 1.8rem;
   --m-1-5: 1.5rem;
@@ -59,7 +51,6 @@ html {
   --m-0-5: 0.5rem;
   --m-0-3: 0.3rem;
 
-  /* =====>>  Padding  <<===== */
   --p-2-5: 2.5rem;
   --p-1-5: 1.5rem;
   --p-1-0: 1rem;
@@ -69,7 +60,6 @@ html {
   --p-0-3: 0.3rem;
 }
 
-/* ===== =====>>  Body Css  <<===== =====  */
 body {
   display: flex;
   justify-content: center;
@@ -77,7 +67,6 @@ body {
   min-height: 100vh;
 }
 
-/* ===== =====>>  Body Main-Background Css  <<===== =====  */
 .main_bg {
   position: absolute;
   top: 0;
@@ -90,7 +79,6 @@ body {
   filter: blur(10px);
 }
 
-/* ===== =====>>  Main-Container Css  <<===== =====  */
 .container {
   position: relative;
   display: grid;
@@ -107,7 +95,6 @@ body {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 25px rgba(0, 0, 0, 0.08);
 }
 
-/* ===== =====>>  Container Cards Grid-Area Css Start  <<===== =====  */
 header {
   grid-area: header;
 }
@@ -128,7 +115,6 @@ header {
   grid-area: timeline_about;
 }
 
-/* ===== =====>>  Container Cards Css  <<===== =====  */
 .container .card {
   background: var(--glass-bg);
   backdrop-filter: blur(3rem);
@@ -137,7 +123,6 @@ header {
   padding: var(--p-1-5);
 }
 
-/* ===== =====>>  Container Header/Navbar Css  <<===== =====  */
 .container header {
   padding: 0 var(--p-2-5);
 }
@@ -158,7 +143,6 @@ header {
   margin-left: var(--m-0-5);
 }
 
-/* ===== =====>>  User Main-Profile Css Start  <<===== ===== */
 .container .userProfile {
   position: relative;
   display: flex;
@@ -176,7 +160,6 @@ header {
   border-radius: 50%;
 }
 
-/* ===== =====>>  Work & Skills Css Start  <<===== ===== */
 .container .work_skills {
   padding: var(--p-1-5);
 }
@@ -234,7 +217,6 @@ header {
   line-height: 1.6rem;
 }
 
-/* =====>>  Skills Bars Css  <<===== */
 .work_skills .skills ul li {
   position: relative;
   font-size: var(--m-fs);
@@ -273,7 +255,6 @@ header {
   }
 }
 
-/* ===== =====>>  User Details Css Start  <<===== ===== */
 .userDetails {
   position: relative;
   padding: var(--p-1-5) var(--p-2-5);
@@ -374,7 +355,6 @@ header {
   color: var(--f5-color);
 }
 
-/* ===== =====>>  Timeline & About Css Start  <<===== ===== */
 .timeline_about {
   padding: var(--p-2-5);
 }
@@ -459,19 +439,6 @@ header {
 .timeline_about .contact_info ul .site span {
   color: var(--f5-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .ticketContainerLi {
   margin-block: 1rem;
