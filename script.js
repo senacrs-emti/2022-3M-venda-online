@@ -37,37 +37,67 @@ function msg() {
   let cookieRespostaSlice = getCookie('cookieResposta');
 
   var cookieResposta = cookieRespostaSlice.slice(';')[0];
-  if (cookieResposta == '1') {
+  if (cookieResposta == '4') {
     popupUser.style.display = 'flex';
-    innerText.innerHTML = 'Usuário já existente.';
+    innerText.innerHTML = 'Insira um usuário';
     document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #ff0000";
     popupUser.style.backgroundColor = '#ff0038';
     document.getElementById('Email').style.borderBottom = "none";
     document.getElementById('Senha').style.borderBottom = "none"; 
   } else {
-    if (cookieResposta == '2') {
+    if (cookieResposta == '5') {
       popupUser.style.display = 'flex';
-      innerText.innerHTML = 'Email já existente.';
+      innerText.innerHTML = 'Insira um email.';
       document.getElementById('Email').style.borderBottom = "0.2rem solid #ff0000";
       popupUser.style.backgroundColor = '#ff0038';
       document.getElementById('NomeDeUsuario').style.borderBottom = "none";
       document.getElementById('Senha').style.borderBottom = "none"; 
     } else {
-      if (cookieResposta == '3') {
+      if (cookieResposta == '6') {
         popupUser.style.display = 'flex';
-        innerText.innerHTML = 'Cadastrado com sucesso.';
-        popupUser.style.backgroundColor = '#07f582';
-        document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #07d582";
-        document.getElementById('Email').style.borderBottom = "0.2rem solid #07d582";
-        document.getElementById('Senha').style.borderBottom = "0.2rem solid #07d582";       
-
-        console.log(cookieResposta)
-        setTimeout(function() {
-          popupUser.style.display = 'none'
-        },4000)
+        innerText.innerHTML = 'Insira uma senha.';
+        document.getElementById('Email').style.borderBottom = "none";
+        popupUser.style.backgroundColor = '#ff0038';
+        document.getElementById('NomeDeUsuario').style.borderBottom = "none";
+        document.getElementById('Senha').style.borderBottom = "0.2rem solid #ff0000"; 
+      } else {
+        if (cookieResposta == '1') {
+          popupUser.style.display = 'flex';
+          innerText.innerHTML = 'Usuário já existente.';
+          document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #ff0000";
+          popupUser.style.backgroundColor = '#ff0038';
+          document.getElementById('Email').style.borderBottom = "none";
+          document.getElementById('Senha').style.borderBottom = "none"; 
+        } else {
+          if (cookieResposta == '2') {
+            popupUser.style.display = 'flex';
+            innerText.innerHTML = 'Email já existente.';
+            document.getElementById('Email').style.borderBottom = "0.2rem solid #ff0000";
+            popupUser.style.backgroundColor = '#ff0038';
+            document.getElementById('NomeDeUsuario').style.borderBottom = "none";
+            document.getElementById('Senha').style.borderBottom = "none"; 
+          } else {
+            if (cookieResposta == '3') {
+              popupUser.style.display = 'flex';
+              innerText.innerHTML = 'Cadastrado com sucesso.';
+              popupUser.style.backgroundColor = '#07f582';
+              document.getElementById('NomeDeUsuario').style.borderBottom = "0.2rem solid #07d582";
+              document.getElementById('Email').style.borderBottom = "0.2rem solid #07d582";
+              document.getElementById('Senha').style.borderBottom = "0.2rem solid #07d582";       
+      
+              console.log(cookieResposta)
+              setTimeout(function() {
+                popupUser.style.display = 'none'
+              },4000)
+            }
+          }
+        }
       }
+      
     }
+    
   }
+  
 }
 
 $(document).ready(function () {
