@@ -1,8 +1,6 @@
-<?php include 'compratopo.php'  ?>
+<?php include 'compratopo.php' ?>
 
-
-
-    <div class="movie-container">
+<div class="movie-container">
       <label> Selecione um Assento:</label>
       <select id="movie">
         <a class="dropdown-item" href="gremioxnovo.php">
@@ -113,4 +111,14 @@
     <script src="cadeiras.js"></script>
   </body>
 
-  <?php include './includes/footer.php' ?>
+
+
+
+
+
+
+
+
+
+
+<?php include './includes/footer.php' ?>
