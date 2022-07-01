@@ -2,6 +2,8 @@
 include_once './includes/navbar.php';
 ?>
 
+<br>
+<br>
 <div id="textnot3">
 <h2>Grêmio realiza treinamento de intensidade na tarde desta sexta-feira</h2>
 </div>

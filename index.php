@@ -56,7 +56,6 @@
     
     </section>
 </div>
-<br>
 <h2>Próximos Jogos</h2>
 <br>
 <div class="container">

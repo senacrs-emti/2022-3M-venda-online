@@ -2,6 +2,8 @@
 include_once './includes/navbar.php';
 ?>
 
+<br>
+<br>
 <div id="textnot4">
 <h2>Com parte do treino de portões fechados, Grêmio trabalha no CT e inicia viagem para Maceió </h2>
 </div>

@@ -2,6 +2,8 @@
 include_once './includes/navbar.php';
 ?>
 
+<br>
+<br>
 <div id="textnot5">
 <h2>Edital de Convocação para sessão extraordinária</h2>
 </div>

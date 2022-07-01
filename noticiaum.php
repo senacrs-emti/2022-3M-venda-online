@@ -2,6 +2,8 @@
 include_once './includes/navbar.php';
 ?>
 
+<br>
+<br>
 <div id="textoum">
 <h2>Com gols de Diego Souza e Janderson, Grêmio vence Novorizontino na Arena</h2>
 </div>

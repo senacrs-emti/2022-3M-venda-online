@@ -2,6 +2,8 @@
 include_once './includes/navbar.php';
 ?>
 
+<br>
+<br>
 <div id="textnot4">
 <h2>Com descontos especiais, GrêmioMania aumenta vendas em dias de jogos na Arena</h2>
 </div>

@@ -2,6 +2,8 @@
 include_once './includes/navbar.php';
 ?>
 
+<br>
+<br>
 <div id="textoum">
 <h2>Grêmio recebe autoridades públicas para cerimônia de apresentação do projeto social "Futuro Suave do Gramado ao Tatame"</h2>
 </div>
