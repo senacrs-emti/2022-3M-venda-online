@@ -1,7 +1,5 @@
-<?php include 'compratopo.php'  ?>
-
-
-
+<?php include 'compratopo.php'  
+?>
     <div class="movie-container">
       <label> Selecione um Assento:</label>
       <select id="movie">
@@ -16,7 +14,7 @@
         <option value="260">Grêmio x Náutico</option>
       </select>
     </div>
-
+  
     <ul class="showcase">
       <li>
         <div class="seat"></div>
@@ -112,5 +110,11 @@
 
     <script src="cadeiras.js"></script>
   </body>
+  
 
-  <?php include './includes/footer.php' ?>
+  
+  
+  
+  
+  
+<?php include './includes/footer.php' ?>

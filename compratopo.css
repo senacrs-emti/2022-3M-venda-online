@@ -128,7 +128,7 @@ body {
    }
 
    .navbar {
-       top: 40px;
+       top: 10px;
        position: fixed;
    }
 
@@ -467,7 +467,6 @@ h6{
     float: right;
     clear: right;
 }
-
 
 
 

@@ -26,7 +26,7 @@
         <a class="nav-link" href="sobre.php">Sobre</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="cadeirass.php">Cadeiras</a>
+        <a class="nav-link" href="cadeiras.php">Cadeiras</a>
       </li>
 
       <li class="nav-item">
