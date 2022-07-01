@@ -33,7 +33,7 @@
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat sold"></div>
       </div>
 
       <div class="row">
@@ -43,8 +43,28 @@
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
       </div>
       <div class="row">
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
@@ -58,33 +78,13 @@
       </div>
       <div class="row">
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
+        <div class="seat sold"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat sold"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat sold"></div>
       </div>
     </div>
 

@@ -1,15 +1,19 @@
 <?php include 'compratopo.php'  
 ?>
+<br>
+<br>
+
+<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Alguma ação</a>
+    <a class="dropdown-item" href="#">Outra ação</a>
+    <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+  </div>
+
     <div class="movie-container">
       <label> Selecione um Assento:</label>
       <select id="movie">
-        <a class="dropdown-item" href="gremioxnovo.php">
-        <a class="link" onclick="abre('presidente');fecha('governador','senador','depFederal','depEstadual');">Presidente</a>
-          <option value="220">Grêmio x Novorizontino</option>
-        </a>
-        <a class="dropdown-item" href="gremioxsamp.php">
-          <option value="320">Grêmio x Sampaio Corrêa</option>
-        </a>
+        <option value="220">Grêmio x Novorizontino</option>
+        <option value="320">Grêmio x Sampaio Corrêa</option>
         <option value="250">Grêmio x Londrina</option>
         <option value="260">Grêmio x Náutico</option>
       </select>

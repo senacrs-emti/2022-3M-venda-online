@@ -2,17 +2,16 @@
 <?php 
 include './includes/navbar.php';
 ?>
+<br>
+<br>
+<br>
+<br>
 
 <head>
   <link rel="stylesheet" href="ingressos.css">
   <title>Ingressos</title>
 </head>
-<h2><b>Ingressos</b></h2>
-<div id="listas">
-<a href="index.php">Início</a>
-/
-<a href="ingressos.php">Ingressos</a>
-</div>
+
 <br>
 <div class="card">
   <a href="compra.php"><img src="imagens/gremioxnovo.png" class="card-img"></a>

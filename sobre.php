@@ -5,15 +5,8 @@ include_once './includes/navbar.php';
 <div id="pgSobre" class="container">
   <div class="row">
     <div class="col-8">
-<div class="sobre">
-<h2><b>Sobre</b></h2>
-</div>
-<div id="listas2">
-<a href="index.php">Início</a>
-/
-<a href="sobre.php">Sobre</a>
-</div>
-
+<br>
+<br>
 <div id="gremio">
     <h1>Grêmio Foot-Ball Porto Alegrense</h1>
 </div>

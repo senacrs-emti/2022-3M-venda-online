@@ -56,8 +56,9 @@
     
     </section>
 </div>
-
+<br>
 <h2>Próximos Jogos</h2>
+<br>
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">

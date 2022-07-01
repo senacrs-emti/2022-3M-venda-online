@@ -1,11 +1,17 @@
-<?php include 'compratopo.php'  ?>
-<br>
-<br>
+<?php include 'compratopo.php' ?>
 
-    <div class="movie-container">
+<div class="movie-container">
       <label> Selecione um Assento:</label>
       <select id="movie">
+        <a class="dropdown-item" href="gremioxnovo.php">
+        <a class="link" onclick="abre('presidente');fecha('governador','senador','depFederal','depEstadual');">Presidente</a>
+          <option value="220">Grêmio x Novorizontino</option>
+        </a>
+        <a class="dropdown-item" href="gremioxsamp.php">
+          <option value="320">Grêmio x Sampaio Corrêa</option>
+        </a>
         <option value="250">Grêmio x Londrina</option>
+        <option value="260">Grêmio x Náutico</option>
       </select>
     </div>
 
@@ -29,18 +35,28 @@
         ></div>
         <div class="seat sold"></div>
         <div class="seat"></div>
+        <div class="seat sold"></div>
         <div class="seat"></div>
         <div class="seat sold"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
       </div>
 
       <div class="row">
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
-        <div class="seat"></div>
+        <div class="seat sold"></div>
         <div class="seat"></div>
         <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat sold"></div>
         <div class="seat"></div>
@@ -51,20 +67,10 @@
         <div class="seat"></div>
         <div class="seat sold"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
         <div class="seat sold"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
       </div>
       <div class="row">
         <div class="seat" style="margin-right: 10px; margin-left: 390px;"></div>
@@ -82,9 +88,9 @@
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
         <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
       </div>
     </div>
 
@@ -105,4 +111,14 @@
     <script src="cadeiras.js"></script>
   </body>
 
-  <?php include './includes/footer.php' ?>
+
+
+
+
+
+
+
+
+
+
+<?php include './includes/footer.php' ?>
