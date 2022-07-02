@@ -1,6 +1,11 @@
-
 <?php 
 include './includes/navbar.php';
+?>
+<?php
+$conn = new PDO('mysql:host=localhost;dbname=script', "root", "");
+$consulta = "SELECT * FROM ingressos ORDER BY id DESC";
+$nomejogos = $_POST['nome'];
+
 ?>
 <br>
 <br>
