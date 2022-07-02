@@ -1,13 +1,7 @@
 <?php
-
-// site de ajuda https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
-
 session_start();
 
 /* Conexão com o DB para fazer o Login de Usuário */
-
-// $Email = $_POST['Email'];
-// $Senha = md5($_POST['Senha']);
 
 $conn = mysqli_connect('localhost','root','');
 $db = mysqli_select_db($conn,'script');

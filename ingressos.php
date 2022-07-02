@@ -1,12 +1,7 @@
 <?php 
 include './includes/navbar.php';
 ?>
-<?php
-$conn = new PDO('mysql:host=localhost;dbname=script', "root", "");
-$consulta = "SELECT * FROM ingressos ORDER BY id DESC";
-$nomejogos = $_POST['nome'];
 
-?>
 <br>
 <br>
 <br>
@@ -21,7 +16,7 @@ $nomejogos = $_POST['nome'];
 <div class="card">
   <a href="compra.php"><img src="imagens/gremioxnovo.png" class="card-img"></a>
   <div class="card-info">
-    <p class="text-title">GRÊMIO X NOVORIZONTINO </p>
+    <p class="text-title">GRÊMIO X NOVORIZONTINO</p>
     <p class="text-body">Jogaço para assistir ao vivo</p>
   </div>
   <div class="card-footer">
